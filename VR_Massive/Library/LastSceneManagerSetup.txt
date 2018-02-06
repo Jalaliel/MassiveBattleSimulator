@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Warrior Pack Bundle 3 FREE/Crossbow Warrior Mecanim Animation Pack/Scenes/Crossbow.unity
+- path: Assets/Mixamo/Magic Pack/Demo/Demo.unity
   isLoaded: 1
   isActive: 1

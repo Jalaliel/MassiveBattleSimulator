@@ -1,0 +1,3261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastUpdatedAtString: 2018-02-06T09:57:51.3155335+01:00
+  lastVerifiedAtString: 2018-02-06T09:57:51.7526345+01:00
+  initializedAtString: 2018-02-06T09:54:55.6649582+01:00
+  entries:
+  - path: VR_Massive\Library\assetDatabase3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\gituser.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: VR_Massive\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1.meta
+    projectPath: Assets\FightingMotionsVolume1.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Animator.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Animator.meta
+    projectPath: Assets\FightingMotionsVolume1\Animator.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller
+    projectPath: Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller.meta
+    projectPath: Assets\FightingMotionsVolume1\Animator\BlueGuy_Animator.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\BlueGuy.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bb_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bd_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bk_push_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bk_rh_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bp_hook_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\bp_upper_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\getup_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\getup_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\getup_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\getup_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\getup_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\getup_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hb_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hd_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hd_front_B.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hk_rh_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hk_side_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_hook_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_hook_left_Tiramis.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_left_Tiramis.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_straight_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\hp_upper_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\idle_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\idle_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\idle_Tiramis.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\knockdown_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\knockdown_loop_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\lb_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\ld_front_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_left_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_right_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\lk_rh_right_Tiramis.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\move_backward_B.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\move_forward_B.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bk_rh_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bp_hook_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\bp_upper_left_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hk_rh_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hk_side_left_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hp_straight_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\hp_upper_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\knockdown_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_left_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\lk_rh_right_A2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\move_backward_B2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\nomove\move_forward_B2.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\win_A.fbx
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\win_A.fbx
+    projectPath: Assets\FightingMotionsVolume1\FBX\win_A.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\FBX\win_A.fbx.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\FBX\win_A.fbx.meta
+    projectPath: Assets\FightingMotionsVolume1\FBX\win_A.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials.meta
+    projectPath: Assets\FightingMotionsVolume1\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\Blue.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\Blue.mat
+    projectPath: Assets\FightingMotionsVolume1\Materials\Blue.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\Blue.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\Blue.mat.meta
+    projectPath: Assets\FightingMotionsVolume1\Materials\Blue.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\PlaneMat.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\PlaneMat.mat
+    projectPath: Assets\FightingMotionsVolume1\Materials\PlaneMat.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\PlaneMat.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\PlaneMat.mat.meta
+    projectPath: Assets\FightingMotionsVolume1\Materials\PlaneMat.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\Red.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\Red.mat
+    projectPath: Assets\FightingMotionsVolume1\Materials\Red.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Materials\Red.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Materials\Red.mat.meta
+    projectPath: Assets\FightingMotionsVolume1\Materials\Red.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs.meta
+    projectPath: Assets\FightingMotionsVolume1\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab.meta
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\BlueGuy.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\Plane.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\Plane.prefab
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\Plane.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\Plane.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\Plane.prefab.meta
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\Plane.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab.meta
+    projectPath: Assets\FightingMotionsVolume1\Prefabs\RedGuy.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Scenes.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Scenes.meta
+    projectPath: Assets\FightingMotionsVolume1\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Scenes\AllMotions.unity
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Scenes\AllMotions.unity
+    projectPath: Assets\FightingMotionsVolume1\Scenes\AllMotions.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Scenes\AllMotions.unity.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Scenes\AllMotions.unity.meta
+    projectPath: Assets\FightingMotionsVolume1\Scenes\AllMotions.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Textures.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Textures.meta
+    projectPath: Assets\FightingMotionsVolume1\Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Textures\plane.png
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Textures\plane.png
+    projectPath: Assets\FightingMotionsVolume1\Textures\plane.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\FightingMotionsVolume1\Textures\plane.png.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\FightingMotionsVolume1\Textures\plane.png.meta
+    projectPath: Assets\FightingMotionsVolume1\Textures\plane.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Attack1.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Attack1.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Attack1.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Attack1.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Attack1.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Attack1.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Idle.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Idle.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Idle.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Idle.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Idle.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Idle.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Run.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Run.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Run.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Run.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Animations\Brute@Run.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Animations\Brute@Run.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Characters.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters\Brute.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Characters\Brute.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters\Brute.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters\Brute.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Characters\Brute.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Characters\Brute.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Materials.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials\Brute.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Materials\Brute.mat
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials\Brute.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials\Brute.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Materials\Brute.mat.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Materials\Brute.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Prefabs.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior Animation Controller.controller
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Prefabs\Brute Warrior
+      Animation Controller.controller
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior Animation Controller.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior Animation Controller.controller.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Prefabs\Brute Warrior
+      Animation Controller.controller.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior Animation Controller.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Prefabs\Brute Warrior.prefab
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Prefabs\Brute Warrior.prefab.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Prefabs\Brute Warrior.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Scenes.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes\Brute.unity
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Scenes\Brute.unity
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes\Brute.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes\Brute.unity.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Scenes\Brute.unity.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Scenes\Brute.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Textures.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures\Brute.psd
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Textures\Brute.psd
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures\Brute.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures\Brute.psd.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Brute Warrior Mecanim Animation Pack Free\Textures\Brute.psd.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Brute Warrior Mecanim Animation
+      Pack Free\Textures\Brute.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Attack1.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Attack1.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Attack1.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Attack1.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Attack1.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Attack1.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Idle.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Idle.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Idle.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Idle.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Idle.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Idle.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Run.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Run.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Run.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Run.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Animations\Karate@Run.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Animations\Karate@Run.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Characters.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters\Karate.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Characters\Karate.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters\Karate.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters\Karate.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Characters\Karate.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Characters\Karate.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Materials.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials\Karate.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Materials\Karate.mat
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials\Karate.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials\Karate.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Materials\Karate.mat.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Materials\Karate.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Prefabs.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Animation Controller.controller
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Prefabs\Karate
+      Animation Controller.controller
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Animation Controller.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Animation Controller.controller.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Prefabs\Karate
+      Animation Controller.controller.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Animation Controller.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Warrior.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Prefabs\Karate
+      Warrior.prefab
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Warrior.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Warrior.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Prefabs\Karate
+      Warrior.prefab.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Prefabs\Karate Warrior.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Scenes.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes\Karate.unity
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Scenes\Karate.unity
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes\Karate.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes\Karate.unity.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Scenes\Karate.unity.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Scenes\Karate.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Textures.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures\Karate.psd
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Textures\Karate.psd
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures\Karate.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures\Karate.psd.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Karate Warrior Mecanim Animation Pack Free\Textures\Karate.psd.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Karate Warrior Mecanim Animation
+      Pack Free\Textures\Karate.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Attack1.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Attack1.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Attack1.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Attack1.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Attack1.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Attack1.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Idle.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Idle.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Idle.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Idle.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Idle.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Idle.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Run.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Run.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Run.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Run.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Animations\Ninja@Run.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Animations\Ninja@Run.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Characters.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters\Ninja.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Characters\Ninja.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters\Ninja.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters\Ninja.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Characters\Ninja.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Characters\Ninja.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Materials.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials\Ninja.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Materials\Ninja.mat
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials\Ninja.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials\Ninja.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Materials\Ninja.mat.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Materials\Ninja.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Prefabs.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior Animation Controller.controller
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Prefabs\Ninja Warrior
+      Animation Controller.controller
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior Animation Controller.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior Animation Controller.controller.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Prefabs\Ninja Warrior
+      Animation Controller.controller.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior Animation Controller.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Prefabs\Ninja Warrior.prefab
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Prefabs\Ninja Warrior.prefab.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Prefabs\Ninja Warrior.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Scenes.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes\Ninja.unity
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Scenes\Ninja.unity
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes\Ninja.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes\Ninja.unity.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Scenes\Ninja.unity.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Scenes\Ninja.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Textures.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures\Ninja.psd
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Textures\Ninja.psd
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures\Ninja.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures\Ninja.psd.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation Pack Free\Textures\Ninja.psd.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Ninja Warrior Mecanim Animation
+      Pack Free\Textures\Ninja.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Attack1.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Attack1.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Attack1.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Attack1.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Attack1.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Attack1.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Idle.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Idle.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Idle.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Idle.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Idle.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Idle.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Run.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Run.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Run.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Run.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Animations\Sorceress@Run.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Animations\Sorceress@Run.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Characters.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress-Hair.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Characters\Sorceress-Hair.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress-Hair.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress-Hair.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Characters\Sorceress-Hair.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress-Hair.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress.FBX
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Characters\Sorceress.FBX
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress.FBX.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Characters\Sorceress.FBX.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Characters\Sorceress.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Materials.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials\Sorceress.mat
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Materials\Sorceress.mat
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials\Sorceress.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials\Sorceress.mat.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Materials\Sorceress.mat.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Materials\Sorceress.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Prefabs.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior Animation Controller.controller
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Prefabs\Sorceress
+      Warrior Animation Controller.controller
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior Animation Controller.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior Animation Controller.controller.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Prefabs\Sorceress
+      Warrior Animation Controller.controller.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior Animation Controller.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior.prefab
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Prefabs\Sorceress
+      Warrior.prefab
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior.prefab.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Prefabs\Sorceress
+      Warrior.prefab.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Prefabs\Sorceress Warrior.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Scenes.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes\Sorceress.unity
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Scenes\Sorceress.unity
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes\Sorceress.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes\Sorceress.unity.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Scenes\Sorceress.unity.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Scenes\Sorceress.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Textures.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures\Sorceress.psd
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Textures\Sorceress.psd
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures\Sorceress.psd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures\Sorceress.psd.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation Pack Free\Textures\Sorceress.psd.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\Sorceress Warrior Mecanim Animation
+      Pack Free\Textures\Sorceress.psd.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Assets\Warrior Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf.meta
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Assets\Warrior
+      Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf.meta
+    projectPath: Assets\Warrior Pack Bundle 1 FREE\WarriorPackBundle1FREEReadMe.pdf.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\CrashedAssetImports.txt
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\EditorInstance.json
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\ShaderCache\4\493341d5afe3b6d713c60e9fff3d97b1.bin
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\ShaderCache\4\493341d5afe3b6d713c60e9fff3d97b1.bin
+    projectPath: Library\ShaderCache\4\493341d5afe3b6d713c60e9fff3d97b1.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\ShaderCache\8\87ecbe5b45193ae117c6ae61ed5ea4e4.bin
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\ShaderCache\8\87ecbe5b45193ae117c6ae61ed5ea4e4.bin
+    projectPath: Library\ShaderCache\8\87ecbe5b45193ae117c6ae61ed5ea4e4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\00\0064cb92ace128248a50326a9abf6dd2
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\00\0064cb92ace128248a50326a9abf6dd2
+    projectPath: Library\metadata\00\0064cb92ace128248a50326a9abf6dd2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\00\0064cb92ace128248a50326a9abf6dd2.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\00\0064cb92ace128248a50326a9abf6dd2.info
+    projectPath: Library\metadata\00\0064cb92ace128248a50326a9abf6dd2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\02\0282c4d4925893d41928a32222f24b11
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\02\0282c4d4925893d41928a32222f24b11
+    projectPath: Library\metadata\02\0282c4d4925893d41928a32222f24b11
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\02\0282c4d4925893d41928a32222f24b11.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\02\0282c4d4925893d41928a32222f24b11.info
+    projectPath: Library\metadata\02\0282c4d4925893d41928a32222f24b11.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\02\028821a698cf0654c8d9d6aa19889290
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\02\028821a698cf0654c8d9d6aa19889290
+    projectPath: Library\metadata\02\028821a698cf0654c8d9d6aa19889290
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\02\028821a698cf0654c8d9d6aa19889290.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\02\028821a698cf0654c8d9d6aa19889290.info
+    projectPath: Library\metadata\02\028821a698cf0654c8d9d6aa19889290.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\03\03195f095903a914192b43fe5bb968e1
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\03\03195f095903a914192b43fe5bb968e1
+    projectPath: Library\metadata\03\03195f095903a914192b43fe5bb968e1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\03\03195f095903a914192b43fe5bb968e1.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\03\03195f095903a914192b43fe5bb968e1.info
+    projectPath: Library\metadata\03\03195f095903a914192b43fe5bb968e1.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75
+    projectPath: Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75.info
+    projectPath: Library\metadata\09\0931ee4927ebe68469e9d3c13bd8cd75.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041
+    projectPath: Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041.info
+    projectPath: Library\metadata\09\095c255e0c1c0744d9160d43cdc9e041.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\09d3d481438fe1342bcac27fe1e47471
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\09d3d481438fe1342bcac27fe1e47471
+    projectPath: Library\metadata\09\09d3d481438fe1342bcac27fe1e47471
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\09\09d3d481438fe1342bcac27fe1e47471.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\09\09d3d481438fe1342bcac27fe1e47471.info
+    projectPath: Library\metadata\09\09d3d481438fe1342bcac27fe1e47471.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609
+    projectPath: Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609.info
+    projectPath: Library\metadata\0b\0bf37dc7372c57146bfc553d666ef609.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209
+    projectPath: Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209.info
+    projectPath: Library\metadata\0d\0dfeae590efe0e741ac2334c0837c209.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a
+    projectPath: Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a.info
+    projectPath: Library\metadata\0e\0e514652c060b6f4ea079fcb93c4797a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6
+    projectPath: Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6.info
+    projectPath: Library\metadata\0e\0ef8bfca79f66044aae7347cc71d7cc6.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1
+    projectPath: Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1.info
+    projectPath: Library\metadata\0f\0fda21245846ea14fba4a6dfdb1182e1.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\10\10e214472ccb1a046bb10503d471fb91
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\10\10e214472ccb1a046bb10503d471fb91
+    projectPath: Library\metadata\10\10e214472ccb1a046bb10503d471fb91
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\10\10e214472ccb1a046bb10503d471fb91.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\10\10e214472ccb1a046bb10503d471fb91.info
+    projectPath: Library\metadata\10\10e214472ccb1a046bb10503d471fb91.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433
+    projectPath: Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433.info
+    projectPath: Library\metadata\17\17004ac38f600ff4f90db12b9b2d5433.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\18\183d0f0718686594e8926497d8e58c83
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\18\183d0f0718686594e8926497d8e58c83
+    projectPath: Library\metadata\18\183d0f0718686594e8926497d8e58c83
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\18\183d0f0718686594e8926497d8e58c83.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\18\183d0f0718686594e8926497d8e58c83.info
+    projectPath: Library\metadata\18\183d0f0718686594e8926497d8e58c83.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9
+    projectPath: Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9.info
+    projectPath: Library\metadata\1c\1c022f09a12ad4a42bc4761e0041a3a9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458
+    projectPath: Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458.info
+    projectPath: Library\metadata\1c\1ceb86b296fd2014e9633c67c8539458.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db
+    projectPath: Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db.info
+    projectPath: Library\metadata\1e\1e1c9a1deae9a6b46afd13d6beef18db.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\20\201d70ebb89dd5741af28da861422b90
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\20\201d70ebb89dd5741af28da861422b90
+    projectPath: Library\metadata\20\201d70ebb89dd5741af28da861422b90
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\20\201d70ebb89dd5741af28da861422b90.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\20\201d70ebb89dd5741af28da861422b90.info
+    projectPath: Library\metadata\20\201d70ebb89dd5741af28da861422b90.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\21\2145f78739ae3574ea9e462d5c45b535
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\21\2145f78739ae3574ea9e462d5c45b535
+    projectPath: Library\metadata\21\2145f78739ae3574ea9e462d5c45b535
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\21\2145f78739ae3574ea9e462d5c45b535.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\21\2145f78739ae3574ea9e462d5c45b535.info
+    projectPath: Library\metadata\21\2145f78739ae3574ea9e462d5c45b535.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\23\235c95899b878bb47a6e6decf0954821
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\23\235c95899b878bb47a6e6decf0954821
+    projectPath: Library\metadata\23\235c95899b878bb47a6e6decf0954821
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\23\235c95899b878bb47a6e6decf0954821.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\23\235c95899b878bb47a6e6decf0954821.info
+    projectPath: Library\metadata\23\235c95899b878bb47a6e6decf0954821.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\24\243b013a8548d9344b2e92934493d476
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\24\243b013a8548d9344b2e92934493d476
+    projectPath: Library\metadata\24\243b013a8548d9344b2e92934493d476
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\24\243b013a8548d9344b2e92934493d476.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\24\243b013a8548d9344b2e92934493d476.info
+    projectPath: Library\metadata\24\243b013a8548d9344b2e92934493d476.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d
+    projectPath: Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d.info
+    projectPath: Library\metadata\24\24bdb7cc7a8d8a745a84df6c531bc19d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\26\2664f222f7b81d04999f8018fe475b2f
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\26\2664f222f7b81d04999f8018fe475b2f
+    projectPath: Library\metadata\26\2664f222f7b81d04999f8018fe475b2f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\26\2664f222f7b81d04999f8018fe475b2f.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\26\2664f222f7b81d04999f8018fe475b2f.info
+    projectPath: Library\metadata\26\2664f222f7b81d04999f8018fe475b2f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0
+    projectPath: Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0.info
+    projectPath: Library\metadata\28\288ca5efb687a97458a0c437c01a1fc0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6
+    projectPath: Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6.info
+    projectPath: Library\metadata\29\2909fc8dc46746d42b2b595d76f7c5a6.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\29182f80f5890a64d921033f970123ed
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\29182f80f5890a64d921033f970123ed
+    projectPath: Library\metadata\29\29182f80f5890a64d921033f970123ed
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\29182f80f5890a64d921033f970123ed.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\29182f80f5890a64d921033f970123ed.info
+    projectPath: Library\metadata\29\29182f80f5890a64d921033f970123ed.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\29d626fded720ee40a139fcd99958641
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\29d626fded720ee40a139fcd99958641
+    projectPath: Library\metadata\29\29d626fded720ee40a139fcd99958641
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\29\29d626fded720ee40a139fcd99958641.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\29\29d626fded720ee40a139fcd99958641.info
+    projectPath: Library\metadata\29\29d626fded720ee40a139fcd99958641.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9
+    projectPath: Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9.info
+    projectPath: Library\metadata\2c\2c49316a9857f774e8275adb73e1efd9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890
+    projectPath: Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890.info
+    projectPath: Library\metadata\2d\2dfa3ced1f180704ba039b8e3a9ee890.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\30\300275db8b4773a49b13ed956d6345c3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\30\300275db8b4773a49b13ed956d6345c3
+    projectPath: Library\metadata\30\300275db8b4773a49b13ed956d6345c3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\30\300275db8b4773a49b13ed956d6345c3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\30\300275db8b4773a49b13ed956d6345c3.info
+    projectPath: Library\metadata\30\300275db8b4773a49b13ed956d6345c3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c
+    projectPath: Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c.info
+    projectPath: Library\metadata\32\32ed0de2e84ee9540870e3c35b13272c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d
+    projectPath: Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d.info
+    projectPath: Library\metadata\34\34b0f0ed3390d964b8b6b299db28f69d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\36\366e58fb738d1d9498331ecffde35853
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\36\366e58fb738d1d9498331ecffde35853
+    projectPath: Library\metadata\36\366e58fb738d1d9498331ecffde35853
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\36\366e58fb738d1d9498331ecffde35853.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\36\366e58fb738d1d9498331ecffde35853.info
+    projectPath: Library\metadata\36\366e58fb738d1d9498331ecffde35853.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb
+    projectPath: Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb.info
+    projectPath: Library\metadata\36\36e7256bb4f35584b836ec06ca50caeb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\38\3875ee494c5527c40a1c44833d2202d3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\38\3875ee494c5527c40a1c44833d2202d3
+    projectPath: Library\metadata\38\3875ee494c5527c40a1c44833d2202d3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\38\3875ee494c5527c40a1c44833d2202d3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\38\3875ee494c5527c40a1c44833d2202d3.info
+    projectPath: Library\metadata\38\3875ee494c5527c40a1c44833d2202d3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563
+    projectPath: Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563.info
+    projectPath: Library\metadata\3b\3bf11e47adbdd4542a4be54c81dac563.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267
+    projectPath: Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267.info
+    projectPath: Library\metadata\3c\3c6a1d67e78a2ff44b06b42ca9ee9267.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b
+    projectPath: Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b.info
+    projectPath: Library\metadata\3f\3ff1228a6fef1834f96812bc96c1d41b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a
+    projectPath: Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a.info
+    projectPath: Library\metadata\43\4329bbc6e0676ec44a6723608b828e4a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\47\4737e6302c9030246ae91eff65c36dbd
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\47\4737e6302c9030246ae91eff65c36dbd
+    projectPath: Library\metadata\47\4737e6302c9030246ae91eff65c36dbd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\47\4737e6302c9030246ae91eff65c36dbd.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\47\4737e6302c9030246ae91eff65c36dbd.info
+    projectPath: Library\metadata\47\4737e6302c9030246ae91eff65c36dbd.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\4a\4a090bb192e55e14f80372c899f11c43
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\4a\4a090bb192e55e14f80372c899f11c43
+    projectPath: Library\metadata\4a\4a090bb192e55e14f80372c899f11c43
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\4a\4a090bb192e55e14f80372c899f11c43.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\4a\4a090bb192e55e14f80372c899f11c43.info
+    projectPath: Library\metadata\4a\4a090bb192e55e14f80372c899f11c43.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703
+    projectPath: Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703.info
+    projectPath: Library\metadata\4e\4e88c250da4576e4da08a761ee2cf703.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\510472d5717218e41b5f1fffd8acb816
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\510472d5717218e41b5f1fffd8acb816
+    projectPath: Library\metadata\51\510472d5717218e41b5f1fffd8acb816
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\510472d5717218e41b5f1fffd8acb816.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\510472d5717218e41b5f1fffd8acb816.info
+    projectPath: Library\metadata\51\510472d5717218e41b5f1fffd8acb816.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18
+    projectPath: Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18.info
+    projectPath: Library\metadata\51\5134975584e9d31438f5ac1f9fd3de18.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043
+    projectPath: Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043.info
+    projectPath: Library\metadata\51\51cf51979b4cd6d4bba74fc1dc1e6043.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\52\525836e2361202a46ae84bd5069c55f7
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\52\525836e2361202a46ae84bd5069c55f7
+    projectPath: Library\metadata\52\525836e2361202a46ae84bd5069c55f7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\52\525836e2361202a46ae84bd5069c55f7.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\52\525836e2361202a46ae84bd5069c55f7.info
+    projectPath: Library\metadata\52\525836e2361202a46ae84bd5069c55f7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\57\570197eb6cbea1c479c35bda442dada9
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\57\570197eb6cbea1c479c35bda442dada9
+    projectPath: Library\metadata\57\570197eb6cbea1c479c35bda442dada9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\57\570197eb6cbea1c479c35bda442dada9.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\57\570197eb6cbea1c479c35bda442dada9.info
+    projectPath: Library\metadata\57\570197eb6cbea1c479c35bda442dada9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3
+    projectPath: Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3.info
+    projectPath: Library\metadata\57\57995d8f3cb17d840b04861ecfec9ab3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b
+    projectPath: Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b.info
+    projectPath: Library\metadata\59\599a5242eae835b4686d12e1fb2ed77b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\59\59c7dab75889cc747a38565aacf425cb
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\59\59c7dab75889cc747a38565aacf425cb
+    projectPath: Library\metadata\59\59c7dab75889cc747a38565aacf425cb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\59\59c7dab75889cc747a38565aacf425cb.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\59\59c7dab75889cc747a38565aacf425cb.info
+    projectPath: Library\metadata\59\59c7dab75889cc747a38565aacf425cb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45
+    projectPath: Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45.info
+    projectPath: Library\metadata\5a\5a757e6d799c5384dab12eb8ab1ece45.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5c\5c75701039296084fb07becd1460ad4f
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5c\5c75701039296084fb07becd1460ad4f
+    projectPath: Library\metadata\5c\5c75701039296084fb07becd1460ad4f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5c\5c75701039296084fb07becd1460ad4f.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5c\5c75701039296084fb07becd1460ad4f.info
+    projectPath: Library\metadata\5c\5c75701039296084fb07becd1460ad4f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40
+    projectPath: Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40.info
+    projectPath: Library\metadata\5d\5d81d0e6f22b34943a12a965c6f6ca40.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19
+    projectPath: Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19.info
+    projectPath: Library\metadata\61\61ffc57c3ca4af84ba8c9a768d165d19.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\63\63c447cc6fb0954459f35c43b5966da2
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\63\63c447cc6fb0954459f35c43b5966da2
+    projectPath: Library\metadata\63\63c447cc6fb0954459f35c43b5966da2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\63\63c447cc6fb0954459f35c43b5966da2.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\63\63c447cc6fb0954459f35c43b5966da2.info
+    projectPath: Library\metadata\63\63c447cc6fb0954459f35c43b5966da2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\63\63c63b715804b924c9748968524fb8d7
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\63\63c63b715804b924c9748968524fb8d7
+    projectPath: Library\metadata\63\63c63b715804b924c9748968524fb8d7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\63\63c63b715804b924c9748968524fb8d7.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\63\63c63b715804b924c9748968524fb8d7.info
+    projectPath: Library\metadata\63\63c63b715804b924c9748968524fb8d7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\65\651d553b4d043ea4da4acc726384732e
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\65\651d553b4d043ea4da4acc726384732e
+    projectPath: Library\metadata\65\651d553b4d043ea4da4acc726384732e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\65\651d553b4d043ea4da4acc726384732e.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\65\651d553b4d043ea4da4acc726384732e.info
+    projectPath: Library\metadata\65\651d553b4d043ea4da4acc726384732e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb
+    projectPath: Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb.info
+    projectPath: Library\metadata\68\6825cd5362ce80a4e9da414c684b6aeb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\69\695e006a106786743addd1fcff461f9a
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\69\695e006a106786743addd1fcff461f9a
+    projectPath: Library\metadata\69\695e006a106786743addd1fcff461f9a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\69\695e006a106786743addd1fcff461f9a.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\69\695e006a106786743addd1fcff461f9a.info
+    projectPath: Library\metadata\69\695e006a106786743addd1fcff461f9a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643
+    projectPath: Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643.info
+    projectPath: Library\metadata\6a\6acf6c5740f6a2746bbb57d7c18ed643.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838
+    projectPath: Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838.info
+    projectPath: Library\metadata\6c\6c20c02fbae58784688d4fb840e4d838.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1
+    projectPath: Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1.info
+    projectPath: Library\metadata\6c\6c7601037374e0d4aaeb4f27e01bccb1.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038
+    projectPath: Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038.info
+    projectPath: Library\metadata\6c\6c88f17ac7ff45543a0878e71288c038.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6d\6d57102141fc7184db95eafa963b4572
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6d\6d57102141fc7184db95eafa963b4572
+    projectPath: Library\metadata\6d\6d57102141fc7184db95eafa963b4572
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6d\6d57102141fc7184db95eafa963b4572.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6d\6d57102141fc7184db95eafa963b4572.info
+    projectPath: Library\metadata\6d\6d57102141fc7184db95eafa963b4572.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d
+    projectPath: Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d.info
+    projectPath: Library\metadata\6e\6eb5ae58faccf5c4d8bf0fa89186392d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3
+    projectPath: Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3.info
+    projectPath: Library\metadata\6f\6f36d974de0fac648a26b5796fbfc3c3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658
+    projectPath: Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658.info
+    projectPath: Library\metadata\71\71516d437ea5ad14e99c121d0ed7e658.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\71\717cdee04ad5d634bbb1649316466beb
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\71\717cdee04ad5d634bbb1649316466beb
+    projectPath: Library\metadata\71\717cdee04ad5d634bbb1649316466beb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\71\717cdee04ad5d634bbb1649316466beb.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\71\717cdee04ad5d634bbb1649316466beb.info
+    projectPath: Library\metadata\71\717cdee04ad5d634bbb1649316466beb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f
+    projectPath: Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f.info
+    projectPath: Library\metadata\74\743b2f433ce9dc34fa40bbc53b94319f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f
+    projectPath: Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f.info
+    projectPath: Library\metadata\76\76d85d521e0da6c4184f732b4173ad3f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3
+    projectPath: Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3.info
+    projectPath: Library\metadata\76\76ee75eb966ed4b45aa6f05a53762be3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\77\7757f98df61622f4791692a0950e9711
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\77\7757f98df61622f4791692a0950e9711
+    projectPath: Library\metadata\77\7757f98df61622f4791692a0950e9711
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\77\7757f98df61622f4791692a0950e9711.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\77\7757f98df61622f4791692a0950e9711.info
+    projectPath: Library\metadata\77\7757f98df61622f4791692a0950e9711.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c
+    projectPath: Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c.info
+    projectPath: Library\metadata\77\77e5c8a3ec20ade47a43ae903e19a17c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\78\781aad2d630bb6a468a68331009360c5
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\78\781aad2d630bb6a468a68331009360c5
+    projectPath: Library\metadata\78\781aad2d630bb6a468a68331009360c5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\78\781aad2d630bb6a468a68331009360c5.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\78\781aad2d630bb6a468a68331009360c5.info
+    projectPath: Library\metadata\78\781aad2d630bb6a468a68331009360c5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\78\789dda6706d910446b72fec85fbf3453
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\78\789dda6706d910446b72fec85fbf3453
+    projectPath: Library\metadata\78\789dda6706d910446b72fec85fbf3453
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\78\789dda6706d910446b72fec85fbf3453.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\78\789dda6706d910446b72fec85fbf3453.info
+    projectPath: Library\metadata\78\789dda6706d910446b72fec85fbf3453.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625
+    projectPath: Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625.info
+    projectPath: Library\metadata\7b\7b2ee5b5217b0fb4188ff8ab278ec625.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df
+    projectPath: Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df.info
+    projectPath: Library\metadata\7b\7b758c29be5b46b49a442501cb39a4df.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83
+    projectPath: Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83.info
+    projectPath: Library\metadata\7b\7bc2ff2d6436aae4bacd17e962fe6c83.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3
+    projectPath: Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3.info
+    projectPath: Library\metadata\7c\7c5a5c0368fbc8440bb6fedd7d0c6ce3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7d\7d26b76a57c4b72458da071e7530534a
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7d\7d26b76a57c4b72458da071e7530534a
+    projectPath: Library\metadata\7d\7d26b76a57c4b72458da071e7530534a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\7d\7d26b76a57c4b72458da071e7530534a.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\7d\7d26b76a57c4b72458da071e7530534a.info
+    projectPath: Library\metadata\7d\7d26b76a57c4b72458da071e7530534a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\80\80c66b0b507d2374e8a428e340dd8414
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\80\80c66b0b507d2374e8a428e340dd8414
+    projectPath: Library\metadata\80\80c66b0b507d2374e8a428e340dd8414
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\80\80c66b0b507d2374e8a428e340dd8414.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\80\80c66b0b507d2374e8a428e340dd8414.info
+    projectPath: Library\metadata\80\80c66b0b507d2374e8a428e340dd8414.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\82\82ff370070ffcb846a647642afec9429
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\82\82ff370070ffcb846a647642afec9429
+    projectPath: Library\metadata\82\82ff370070ffcb846a647642afec9429
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\82\82ff370070ffcb846a647642afec9429.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\82\82ff370070ffcb846a647642afec9429.info
+    projectPath: Library\metadata\82\82ff370070ffcb846a647642afec9429.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\84\84737158b8acdfd46a09c0013aadaca7
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\84\84737158b8acdfd46a09c0013aadaca7
+    projectPath: Library\metadata\84\84737158b8acdfd46a09c0013aadaca7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\84\84737158b8acdfd46a09c0013aadaca7.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\84\84737158b8acdfd46a09c0013aadaca7.info
+    projectPath: Library\metadata\84\84737158b8acdfd46a09c0013aadaca7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\86\8645e0506d8d64d44bda3003df478c3e
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\86\8645e0506d8d64d44bda3003df478c3e
+    projectPath: Library\metadata\86\8645e0506d8d64d44bda3003df478c3e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\86\8645e0506d8d64d44bda3003df478c3e.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\86\8645e0506d8d64d44bda3003df478c3e.info
+    projectPath: Library\metadata\86\8645e0506d8d64d44bda3003df478c3e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\87\87bfe15903b839749a701bb417d3705b
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\87\87bfe15903b839749a701bb417d3705b
+    projectPath: Library\metadata\87\87bfe15903b839749a701bb417d3705b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\87\87bfe15903b839749a701bb417d3705b.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\87\87bfe15903b839749a701bb417d3705b.info
+    projectPath: Library\metadata\87\87bfe15903b839749a701bb417d3705b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa
+    projectPath: Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa.info
+    projectPath: Library\metadata\88\88800a0f24d88d24baf23a76f5adcaaa.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39
+    projectPath: Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39.info
+    projectPath: Library\metadata\8b\8b6ca66cf21170749b7c0644ee77cc39.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\96\96bd314225bd5934dbcde0048ded2180
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\96\96bd314225bd5934dbcde0048ded2180
+    projectPath: Library\metadata\96\96bd314225bd5934dbcde0048ded2180
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\96\96bd314225bd5934dbcde0048ded2180.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\96\96bd314225bd5934dbcde0048ded2180.info
+    projectPath: Library\metadata\96\96bd314225bd5934dbcde0048ded2180.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489
+    projectPath: Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489.info
+    projectPath: Library\metadata\97\97e5db5a0e4821a46b0efc57d7308489.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15
+    projectPath: Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15.info
+    projectPath: Library\metadata\9a\9a04c3da9b2a41c40b0cd20cfffa4c15.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e
+    projectPath: Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e.info
+    projectPath: Library\metadata\9a\9a69bf0e64b2f374f9c07cc1ad352b4e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a1\a178bb221d265b9438121289a4c2f10b
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a1\a178bb221d265b9438121289a4c2f10b
+    projectPath: Library\metadata\a1\a178bb221d265b9438121289a4c2f10b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a1\a178bb221d265b9438121289a4c2f10b.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a1\a178bb221d265b9438121289a4c2f10b.info
+    projectPath: Library\metadata\a1\a178bb221d265b9438121289a4c2f10b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff
+    projectPath: Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff.info
+    projectPath: Library\metadata\a4\a435cd4442072c843bf2ca9d95fdf4ff.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5
+    projectPath: Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5.info
+    projectPath: Library\metadata\a7\a74c2bda7cb794e4290051305b3dbfc5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309
+    projectPath: Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309.info
+    projectPath: Library\metadata\a8\a82ede2d9a71eb340a1961cd37d6e309.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37
+    projectPath: Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37.info
+    projectPath: Library\metadata\a9\a9b5e79aa73ac11439518a1b4173bb37.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\aa\aa84a29a9f3ede049928d81d92587824
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\aa\aa84a29a9f3ede049928d81d92587824
+    projectPath: Library\metadata\aa\aa84a29a9f3ede049928d81d92587824
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\aa\aa84a29a9f3ede049928d81d92587824.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\aa\aa84a29a9f3ede049928d81d92587824.info
+    projectPath: Library\metadata\aa\aa84a29a9f3ede049928d81d92587824.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\aa\aab1ba24fba2741479d34952e713eed4
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\aa\aab1ba24fba2741479d34952e713eed4
+    projectPath: Library\metadata\aa\aab1ba24fba2741479d34952e713eed4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\aa\aab1ba24fba2741479d34952e713eed4.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\aa\aab1ba24fba2741479d34952e713eed4.info
+    projectPath: Library\metadata\aa\aab1ba24fba2741479d34952e713eed4.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43
+    projectPath: Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43.info
+    projectPath: Library\metadata\ab\abbaa0d0b77614e4f98b847ef642ed43.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef
+    projectPath: Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef.info
+    projectPath: Library\metadata\ac\ac5e1deee6f0b284fbbae6a3fe80b6ef.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c
+    projectPath: Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c.info
+    projectPath: Library\metadata\ac\ac9975871f6774c44a6c33bf8da40c0c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0
+    projectPath: Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0.info
+    projectPath: Library\metadata\af\afed4e45cf3825844a9f9c4ddd1547d0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15
+    projectPath: Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15.info
+    projectPath: Library\metadata\b1\b1d836fe66d68fe4b9921d0d510eee15.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\b8\b89157ae667535c4480304ff481b791b
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\b8\b89157ae667535c4480304ff481b791b
+    projectPath: Library\metadata\b8\b89157ae667535c4480304ff481b791b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\b8\b89157ae667535c4480304ff481b791b.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\b8\b89157ae667535c4480304ff481b791b.info
+    projectPath: Library\metadata\b8\b89157ae667535c4480304ff481b791b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289
+    projectPath: Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289.info
+    projectPath: Library\metadata\ba\ba60e25f859cdbe4da998a47f203e289.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521
+    projectPath: Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521.info
+    projectPath: Library\metadata\bf\bf1ab8a88342d9f4f980d04c6845f521.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\cc\cc1217fff7caf4d409965731ec59659a
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\cc\cc1217fff7caf4d409965731ec59659a
+    projectPath: Library\metadata\cc\cc1217fff7caf4d409965731ec59659a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\cc\cc1217fff7caf4d409965731ec59659a.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\cc\cc1217fff7caf4d409965731ec59659a.info
+    projectPath: Library\metadata\cc\cc1217fff7caf4d409965731ec59659a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e
+    projectPath: Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e.info
+    projectPath: Library\metadata\ce\ce898fdcb7684734b8b25310bcb1600e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb
+    projectPath: Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb.info
+    projectPath: Library\metadata\d0\d01bc7c7263ec8d4aa3f7947c2ddf0cb.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95
+    projectPath: Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95.info
+    projectPath: Library\metadata\d2\d28a799ed3743fb459cf17cd032e7d95.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\db\db3a966ebc05de14e8d24781e5654f14
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\db\db3a966ebc05de14e8d24781e5654f14
+    projectPath: Library\metadata\db\db3a966ebc05de14e8d24781e5654f14
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\db\db3a966ebc05de14e8d24781e5654f14.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\db\db3a966ebc05de14e8d24781e5654f14.info
+    projectPath: Library\metadata\db\db3a966ebc05de14e8d24781e5654f14.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861
+    projectPath: Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861.info
+    projectPath: Library\metadata\dc\dcf93b2e2e55c0c41a9c449084c2c861.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4
+    projectPath: Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4.info
+    projectPath: Library\metadata\de\dec0809b47df49c45a0c6fa4d37fb4d4.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971
+    projectPath: Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971.info
+    projectPath: Library\metadata\e0\e0ad8083c895ff74ea01f55b82884971.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965
+    projectPath: Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965.info
+    projectPath: Library\metadata\e0\e0eba113fe1019f4cba978dac0d7c965.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde
+    projectPath: Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde.info
+    projectPath: Library\metadata\e4\e4f3ef320ac0e124fbd5766ab8a38cde.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3
+    projectPath: Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3.info
+    projectPath: Library\metadata\e8\e85eabbd59e479e48a4b8d0cb836f2e3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332
+    projectPath: Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332.info
+    projectPath: Library\metadata\e9\e9332b82da4812a49916bf8fc87b2332.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e9\e96932110ac686d4ca3d30528d498dde
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e9\e96932110ac686d4ca3d30528d498dde
+    projectPath: Library\metadata\e9\e96932110ac686d4ca3d30528d498dde
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\e9\e96932110ac686d4ca3d30528d498dde.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\e9\e96932110ac686d4ca3d30528d498dde.info
+    projectPath: Library\metadata\e9\e96932110ac686d4ca3d30528d498dde.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8
+    projectPath: Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8.info
+    projectPath: Library\metadata\ee\eea3a4476bab05b458d87a5b376889c8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7
+    projectPath: Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7.info
+    projectPath: Library\metadata\f2\f23bfe090f96a354cadcc9391d9f05c7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\f6\f623cb5bbada5544392f356c748984ea
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\f6\f623cb5bbada5544392f356c748984ea
+    projectPath: Library\metadata\f6\f623cb5bbada5544392f356c748984ea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\f6\f623cb5bbada5544392f356c748984ea.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\f6\f623cb5bbada5544392f356c748984ea.info
+    projectPath: Library\metadata\f6\f623cb5bbada5544392f356c748984ea.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237
+    projectPath: Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237.info
+    projectPath: Library\metadata\fb\fbd521d5912a5f54494450f3d40f0237.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fd\fd79887f970ff394c92966c76af78a10
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fd\fd79887f970ff394c92966c76af78a10
+    projectPath: Library\metadata\fd\fd79887f970ff394c92966c76af78a10
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fd\fd79887f970ff394c92966c76af78a10.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fd\fd79887f970ff394c92966c76af78a10.info
+    projectPath: Library\metadata\fd\fd79887f970ff394c92966c76af78a10.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3
+    projectPath: Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3.info
+    projectPath: Library\metadata\fe\fed828ab310f1144e96c82e797cb98b3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5
+    projectPath: Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5.info
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5.info
+    projectPath: Library\metadata\ff\ff4289aabbc649a48a22039b7d827de5.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Temp\TarGZ\Fighting Motions Vol1
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Temp\TarGZ\Fighting
+      Motions Vol1
+    projectPath: Temp\TarGZ\Fighting Motions Vol1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Temp\UnityLockfile
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: VR_Massive\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\Chloe\Desktop\MassiveBattleSimulator\VR_Massive\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
