@@ -7,77 +7,49 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Animator))]
 public class Agent : MonoBehaviour {
 
-    NavMeshAgent agent;
-    private bool moving=false;
-    private Vector2 smoothDeltaPosition = Vector2.zero;
-    private Vector2 velocity = Vector2.zero;
-    Animator anim;
+    private NavMeshAgent agent;
+    public Animator anim;
 
-    float portee;
-    public int idAgent=0;
-    public bool equipe=false;
+    public float portee;
+    protected int idAgent=0;
+    public bool equipeA;
     private Monde terrain=null;
+    private bool moving;
+    private Move m; // ça sert pas à grand chose mais c'est obligatoire pour appeler la méthode
+ 
 
     // Use this for initialization
-    void Start ()
+    protected void StartA ()
     {
-        agent = GetComponent<NavMeshAgent>();
+        Debug.Log("start");
         agent = GetComponent<NavMeshAgent>();
         // Don’t update position automatically
         agent.updatePosition = false;
         anim = GetComponent<Animator>();
+        m = new Move(agent, anim,this);
     }
 	
-    void init(Monde m, bool team,int id)
+    void Init(Monde monde, bool team,int id)
     {
         equipe = team;
-        terrain = m;
+        terrain = monde;
         idAgent = id;
     }
 
 
-	// Update is called once per frame
-	void Update () {
-        if (moving){
-            Vector3 worldDeltaPosition = agent.nextPosition - transform.position;
-
-            // Map 'worldDeltaPosition' to local space
-            float dx = Vector3.Dot(transform.right, worldDeltaPosition);
-            float dy = Vector3.Dot(transform.forward, worldDeltaPosition);
-            Vector2 deltaPosition = new Vector2(dx, dy);
-
-            // Low-pass filter the deltaMove
-            float smooth = Mathf.Min(1.0f, Time.deltaTime / 0.15f);
-            smoothDeltaPosition = Vector2.Lerp(smoothDeltaPosition, deltaPosition, smooth);
-
-            // Update velocity if time advances
-            if (Time.deltaTime > 1e-5f)
-                velocity = smoothDeltaPosition / Time.deltaTime;
-
-            bool shouldMove = velocity.magnitude > 0.5f && agent.remainingDistance > agent.radius;
-
-            // Update animation parameters
-            anim.SetBool("Moving", shouldMove);
-            anim.SetFloat("velx", velocity.x);
-            anim.SetFloat("vely", velocity.y);
-        }
-        else
-        {
-            priseDecision();
-        }
-
-    }
-
-    void priseDecision()
-    {
-        
-
-    }
-
-    bool Move(Vector3 position)
-    {
-        moving = true;
+	// Set la destination du NavMeshAgent à position et appelle la méthode qui se charge de faire fonctionner le déplacemment et les animations en même temps.
+	protected void LetsMove (Vector3 position) {
         agent.destination = position;
-        return true;
+        moving = true;// A virer?
+        m.LetsMove();
     }
+
+    // Sert a faire déplacer l'agent
+    void OnAnimatorMove()
+    {
+        // Update position to agent position
+        transform.position = agent.nextPosition;
+    }
+
+
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9590292}
   - component: {fileID: 195610783322801938}
   - component: {fileID: 114751130717953644}
-  - component: {fileID: 114030957452374792}
+  - component: {fileID: 114262828174692600}
   m_Layer: 0
   m_Name: Mage Warrior
   m_TagString: Player
@@ -1780,7 +1780,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
---- !u!114 &114030957452374792
+--- !u!114 &114262828174692600
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1788,9 +1788,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57c896c7883740418c073ef2a4e2020, type: 3}
+  m_Script: {fileID: 11500000, guid: b6b6d00361d43a24aa23b371a9c1f4ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 9590292}
+  equipe: 0
+  desti: {fileID: 0}
 --- !u!114 &114751130717953644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1802,7 +1805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783b36e338f96444d94774cd32af19ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  desti: {fileID: 0}
 --- !u!195 &195610783322801938
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -1812,7 +1814,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
