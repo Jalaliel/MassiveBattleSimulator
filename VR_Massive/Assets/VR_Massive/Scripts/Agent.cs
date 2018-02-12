@@ -31,7 +31,7 @@ public class Agent : MonoBehaviour {
 	
     void Init(Monde monde, bool team,int id)
     {
-        equipe = team;
+        equipeA = team;
         terrain = monde;
         idAgent = id;
     }
