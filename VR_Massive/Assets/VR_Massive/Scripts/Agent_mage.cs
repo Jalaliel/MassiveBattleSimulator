@@ -14,14 +14,27 @@ public class Agent_mage : Agent {
 	}
 
     // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
-    void Update () {
-        Agent ennemi = getEnnemisPortee();
-        if (ennemi != null){
-            this.Attaquer(ennemi);
+    void Update ()
+    {
+        if (base.etat != 10)
+        { 
+            Agent ennemi = getEnnemisPortee();
+            if (ennemi != null)
+            {
+                this.Attaquer(ennemi);
+            }
+            else
+            {
+                base.LetsMove(desti.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
+            }
         }
         else
         {
-            base.LetsMove(desti.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
+            // TODO: implémentation de la fuite à faire (en gros mettre une destination en dehors de la map)
+
+            if ((this.transform.position.x > 100) || (this.transform.position.x < -100) || (this.transform.position.z > 100) || (this.transform.position.z < -100))
+                base.terrain.Tuer(this, this.equipeA);
+            // TODO: checker la sortie de map et appeler Monde.Tuer
         }
 	}
 }

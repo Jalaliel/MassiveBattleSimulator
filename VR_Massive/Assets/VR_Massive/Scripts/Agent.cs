@@ -14,9 +14,9 @@ public class Agent : MonoBehaviour {
     public float portee;
     protected int idAgent=0;
     public bool equipeA;
-    private Monde terrain=null;
+    protected Monde terrain=null;
     private bool moving;
-    private int etat = 0;
+    protected int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort, 10 fuite
  
 
     // Use this for initialization

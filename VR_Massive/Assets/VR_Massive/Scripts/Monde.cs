@@ -17,6 +17,11 @@ public class Monde : MonoBehaviour {
     public Transform agentsA;
     public Transform agentsB;
 
+    // Proba de toucher
+    private float proba_fort = 0.40f; // Proba de toucher un mec plus fort que soit
+    private float proba_egal = 0.70f;
+    private float proba_faible = 0.90f;
+
 	// Use this for initialization
 	void Start () {
         // Generation des listes avec des Instantiate et Init().
@@ -77,8 +82,60 @@ public class Monde : MonoBehaviour {
 
     public void Attaquer(Agent attaquant, Agent attaque)
     {
+        int indice=0;
+        if (attaquant.GetType().Name == attaque.GetType().Name)
+            indice = 2;
+        else
+        {
+            if ((attaquant.GetType().Name == "Agent_mage" && attaque.GetType().Name == "Agent_bouclier") || (attaquant.GetType().Name == "Agent_bouclier" && attaque.GetType().Name == "Agent_deuxMains") || (attaquant.GetType().Name == "Agent_deuxMains" && attaque.GetType().Name == "Agent_mage"))
+                indice = 1;
+            else
+                indice = 3;
+        }
+        bool reussi = false;
+        switch (indice)
+        {
+            case 1:
+                reussi = (Random.Range(1, 10) > 6);
+                break;
 
+            case 2:
+                reussi = (Random.Range(1, 10) > 3);
+                break;
+
+            case 3:
+                reussi = (Random.Range(1, 10) > 1);
+                break;
+            default:
+                Debug.Log("Il y a une couille dans le paté");
+                break;
+        }
+        if (reussi)
+        {
+            attaque.SetEtat(attaque.GetEtat() - 1);
+            if (attaque.GetEtat() == 0)
+                this.Tuer(attaque,attaque.equipeA);
+        }
     }
+
+
+
+    public void Tuer(Agent mort, bool team)
+    {
+        if (team)
+        {
+            teamA.Remove(mort);
+            // TODO animation mort
+            Destroy(mort.gameObject, 5);
+        }
+        else
+        {
+            teamB.Remove(mort);
+            // TODO: Animation morts
+            Destroy(mort.gameObject,5);
+        }
+    }
+
 
     // Ressors un ennemis à portée de l'attaquant si il y en a un (le premier qu'il trouve), null sinon
     public Agent EnnemisADisance(Agent attaquant)
@@ -94,10 +151,12 @@ public class Monde : MonoBehaviour {
     {
         Agent ennemi = null;
         int i = 0;
-        while ((ennemi==null) & (i<teamA.Count))
+        while ((ennemi==null) & (i < teamA.Count))
+        { 
             if (Vector3.Distance(this.transform.position, teamA[i].transform.position) < attaquant.portee)
                 ennemi = teamA[i];
             i++;
+        }
         return ennemi;
     }
     private Agent EnnemisADistanceB(Agent attaquant)
@@ -105,9 +164,11 @@ public class Monde : MonoBehaviour {
         Agent ennemi = null;
         int i = 0;
         while ((ennemi == null) & (i < teamB.Count))
+        {
             if (Vector3.Distance(this.transform.position, teamB[i].transform.position) < attaquant.portee)
                 ennemi = teamA[i];
-        i++;
+            i++;
+        }
         return ennemi;
     }
 }
