@@ -15,6 +15,13 @@ public class Agent_mage : Agent {
 
     // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
     void Update () {
-        base.LetsMove(desti.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
+        Agent ennemi = getEnnemisPortee();
+        if (ennemi != null){
+            this.Attaquer(ennemi);
+        }
+        else
+        {
+            base.LetsMove(desti.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
+        }
 	}
 }

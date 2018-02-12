@@ -649,7 +649,13 @@ Prefab:
       propertyPath: desti
       value: 
       objectReference: {fileID: 2000513339}
-    m_RemovedComponents: []
+    - target: {fileID: 114262828174692600, guid: bad0018eb9256e6409155981dd5af9a2,
+        type: 2}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114751130717953644, guid: bad0018eb9256e6409155981dd5af9a2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: bad0018eb9256e6409155981dd5af9a2, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &700283776
@@ -1116,6 +1122,30 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 906e877bca74adb41acbe884c5e92321, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1655129871 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 906e877bca74adb41acbe884c5e92321, type: 3}
+  m_PrefabInternal: {fileID: 1655129870}
+--- !u!114 &1655129872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1655129871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d968e8f811715244a96d997113127038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nbAgentTeam: 0
+  nbAgentTeamMage: 2
+  nbAgentTeamDeuxMains: 2
+  nbAgentTeamBouclier: 2
+  mage: {fileID: 0}
+  deuxMains: {fileID: 0}
+  bouclier: {fileID: 0}
+  agentsA: {fileID: 0}
+  agentsB: {fileID: 0}
 --- !u!1001 &1741997288
 Prefab:
   m_ObjectHideFlags: 0
