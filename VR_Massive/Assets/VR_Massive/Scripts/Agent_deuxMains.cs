@@ -19,7 +19,7 @@ public class Agent_deuxMains : Agent {
     {
         if (base.etat != 10)
         {
-            Agent ennemi = getEnnemisPortee();
+            Agent ennemi = GetEnnemisPortee();
             if (ennemi != null)
             {
                 this.Attaquer(ennemi);

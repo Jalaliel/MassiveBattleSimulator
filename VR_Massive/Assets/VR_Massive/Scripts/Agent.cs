@@ -15,7 +15,7 @@ public class Agent : MonoBehaviour {
     protected int idAgent=0;
     public bool equipeA;
     protected Monde terrain=null;
-    private bool moving;
+    protected bool moving;
     protected int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort, 10 fuite
  
 
@@ -58,6 +58,7 @@ public class Agent : MonoBehaviour {
     protected void Attaquer(Agent attaque)
     {
         // A completer avec le booleen d'animation 
+        this.moving = false;
         this.anim.SetBool("attack", true);
         this.terrain.Attaquer(this, attaque);
     }
@@ -69,7 +70,7 @@ public class Agent : MonoBehaviour {
         m.LetsMove();
     }
 
-    protected Agent getEnnemisPortee()
+    protected Agent GetEnnemisPortee()
     {
         return (terrain.EnnemisADisance(this) );
     }
@@ -77,8 +78,9 @@ public class Agent : MonoBehaviour {
     // Sert a faire déplacer l'agent
     void OnAnimatorMove()
     {
+        if (moving)
         // Update position to agent position
-        transform.position = agent.nextPosition;
+            transform.position = agent.nextPosition;
     }
 
 
