@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Monde : MonoBehaviour {
 
-    List<Agent> teamA;
-    List<Agent> teamB;
+    List<Agent> teamA=null;
+    List<Agent> teamB=null;
 
     public int nbAgentTeam=0;
     public int nbAgentTeamMage = 2;
@@ -22,62 +22,83 @@ public class Monde : MonoBehaviour {
     private float proba_egal = 0.70f;
     private float proba_faible = 0.90f;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         // Generation des listes avec des Instantiate et Init().
 
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
+        teamA = new List<Agent>();
+        teamB = new List<Agent>();
 
         /*TEAM A  */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-            GameObject NAgent=Instantiate(mage) as GameObject;
-            teamA[i]=NAgent.GetComponent<Agent_mage>();// TODO A verifier !!!!
-            teamA[i].Init(this, true,i);
+            GameObject NAgent = Instantiate(mage, agentsA.position, agentsA.rotation) as GameObject;
+            teamA.Add(NAgent.GetComponent<Agent_mage>());// TODO A verifier !!!!
+            teamA[i].Init(this, true, i);
         }
+
         int decalage = teamA.Count;
+        if (decalage == nbAgentTeamMage)
+            Debug.Log("Pas de soucis avec les mages A");
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-            GameObject NAgent = Instantiate(deuxMains) as GameObject;
-            teamA[i+decalage] = NAgent.GetComponent<Agent_deuxMains>();// TODO A verifier !!!!
-            teamA[i+decalage].Init(this, true, i+decalage);
-        }
-        decalage = teamA.Count;
-        for (int i = 0; i < nbAgentTeamBouclier; i++)
-        {
-            GameObject NAgent = Instantiate(bouclier) as GameObject;
-            teamA[i + decalage] = NAgent.GetComponent<Agent_bouclier>();
+            GameObject NAgent = Instantiate(deuxMains, agentsA.position, agentsA.rotation) as GameObject;
+            teamA.Add(NAgent.GetComponent<Agent_deuxMains>());// TODO A verifier !!!!
             teamA[i + decalage].Init(this, true, i + decalage);
         }
+        decalage = teamA.Count;
+        if (decalage == nbAgentTeamMage + nbAgentTeamDeuxMains)
+            Debug.Log("Pas de soucis avec les deuxMains A");
+        for (int i = 0; i < nbAgentTeamBouclier; i++)
+        {
+            GameObject NAgent = Instantiate(bouclier, agentsA.position, agentsA.rotation) as GameObject;
+            teamA.Add(NAgent.GetComponent<Agent_bouclier>());
+            teamA[i + decalage].Init(this, true, i + decalage);
+        }
+        decalage = teamA.Count;
+        if (decalage == nbAgentTeam)
+            Debug.Log("Pas de soucis avec les boubou A");
 
 
         /*TEAM B  */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-            GameObject mageC = Instantiate(mage) as GameObject;
-            teamB[i] = mageC.GetComponent<Agent_mage>();// TODO A verifier !!!!
-            teamB[i].Init(this, false, i);
+            GameObject NAgent = Instantiate(mage, agentsB.position, agentsB.rotation) as GameObject;
+            teamB.Add(NAgent.GetComponent<Agent_mage>());// TODO A verifier !!!!
+            teamB[i].Init(this, true, i);
         }
+
         decalage = teamB.Count;
+        if (decalage == nbAgentTeamMage)
+            Debug.Log("Pas de soucis avec les mages B");
+
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-            GameObject NAgent = Instantiate(deuxMains) as GameObject;
-            teamB[i + decalage] = NAgent.GetComponent<Agent_deuxMains>();// TODO A verifier !!!!
-            teamB[i + decalage].Init(this, false, i + decalage);
+            GameObject NAgent = Instantiate(deuxMains, agentsB.position, agentsB.rotation) as GameObject;
+            teamB.Add(NAgent.GetComponent<Agent_deuxMains>());// TODO A verifier !!!!
+            teamB[i + decalage].Init(this, true, i + decalage);
         }
         decalage = teamB.Count;
+        if (decalage == nbAgentTeamMage + nbAgentTeamDeuxMains)
+            Debug.Log("Pas de soucis avec les deuxMains B");
         for (int i = 0; i < nbAgentTeamBouclier; i++)
         {
-            GameObject NAgent = Instantiate(bouclier) as GameObject;
-            teamB[i + decalage] = NAgent.GetComponent<Agent_bouclier>();// TODO A verifier !!!!
-            teamB[i + decalage].Init(this, false, i + decalage);
+            GameObject NAgent = Instantiate(bouclier, agentsB.position, agentsB.rotation) as GameObject;
+            teamB.Add(NAgent.GetComponent<Agent_bouclier>());
+            teamB[i + decalage].Init(this, true, i + decalage);
         }
+        decalage = teamB.Count;
+        if (decalage == nbAgentTeam)
+            Debug.Log("Pas de soucis avec les boubou B");
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-    }
+        // Update is called once per frame
+        void Update ()
+        {
+
+        }
 
 
     public void Attaquer(Agent attaquant, Agent attaque)
