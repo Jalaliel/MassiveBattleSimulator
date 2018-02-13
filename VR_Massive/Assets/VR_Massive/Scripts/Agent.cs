@@ -22,7 +22,7 @@ public class Agent : MonoBehaviour {
     // Use this for initialization
     protected void StartA ()
     {
-        Debug.Log("start");
+        //Debug.Log("start");
         agent = GetComponent<NavMeshAgent>();
         // Don’t update position automatically
         agent.updatePosition = false;
@@ -33,6 +33,11 @@ public class Agent : MonoBehaviour {
     // Méthode qui sert a récupérer les paramètres de chaque agent. Elle ne devrait être appelée que par le Monde
     public void Init(Monde monde, bool team,int id)
     {
+        agent = GetComponent<NavMeshAgent>();
+        // Don’t update position automatically
+        agent.updatePosition = false;
+        anim = GetComponent<Animator>();
+        m = new Move(agent, anim, this);
         equipeA = team;
         terrain = monde;
         idAgent = id;
