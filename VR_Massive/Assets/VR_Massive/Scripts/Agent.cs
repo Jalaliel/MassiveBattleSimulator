@@ -16,7 +16,8 @@ public class Agent : MonoBehaviour {
     public bool equipeA;
     protected Monde terrain=null;
     public bool moving;
-    public int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort, 10 fuite
+    public int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort
+    public bool enFuite;
  
 
     // Use this for initialization
@@ -43,6 +44,7 @@ public class Agent : MonoBehaviour {
         terrain = monde;
         idAgent = id;
         etat = 3;
+        enFuite = false;
     }
 
     // Set l'etat de l'agent

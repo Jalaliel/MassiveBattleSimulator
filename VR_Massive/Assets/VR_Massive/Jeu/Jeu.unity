@@ -969,15 +969,15 @@ MonoBehaviour:
   teamA: []
   teamB: []
   nbAgentTeam: 0
-  nbAgentTeamMage: 2
-  nbAgentTeamDeuxMains: 2
+  nbAgentTeamMage: 5
+  nbAgentTeamDeuxMains: 0
   nbAgentTeamBouclier: 2
   mage: {fileID: 1461229397}
   deuxMains: {fileID: 1579883459}
   bouclier: {fileID: 1737944518}
   agentsA: {fileID: 639050235}
   agentsB: {fileID: 336308344}
-  fuite: {fileID: 0}
+  fuite: {fileID: 1499547018}
 --- !u!4 &1456690417 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 768a8890a28f01b4ca290ee63a4022a0, type: 2}

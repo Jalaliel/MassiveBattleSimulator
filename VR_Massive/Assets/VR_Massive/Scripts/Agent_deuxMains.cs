@@ -22,7 +22,7 @@ public class Agent_deuxMains : Agent {
         if (base.etat > 0)
         {
 
-            if (base.etat != 10)
+            if (!enFuite)
             {
                 int nbEquipe = 0;
                 int nbEquipeEn = 0;
@@ -36,9 +36,9 @@ public class Agent_deuxMains : Agent {
                     nbEquipe = this.terrain.GetNbTeamB();
                     nbEquipeEn = this.terrain.GetNbTeamA();
                 }
-                if (Random.Range(1, 1000) < 10 * nbEquipeEn / nbEquipe)
+                if (Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe)
                 {
-                    this.etat = 10;
+                    this.enFuite=true;
                     this.LetsMove(this.terrain.fuite.position);
                 }
                 else

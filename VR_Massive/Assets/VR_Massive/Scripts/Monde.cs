@@ -8,9 +8,9 @@ public class Monde : MonoBehaviour {
     public List<Agent> teamB=null;
 
     public int nbAgentTeam=0;
-    public int nbAgentTeamMage = 2;
-    public int nbAgentTeamDeuxMains = 2;
-    public int nbAgentTeamBouclier = 2;
+    public int nbAgentTeamMage;
+    public int nbAgentTeamDeuxMains;
+    public int nbAgentTeamBouclier;
     public GameObject mage;
     public GameObject deuxMains;
     public GameObject bouclier;
