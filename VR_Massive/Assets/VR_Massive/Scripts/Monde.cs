@@ -8,9 +8,9 @@ public class Monde : MonoBehaviour {
     public List<Agent> teamB=null;
 
     public int nbAgentTeam=0;
-    public int nbAgentTeamMage = 2;
-    public int nbAgentTeamDeuxMains = 2;
-    public int nbAgentTeamBouclier = 2;
+    public int nbAgentTeamMage = 15;
+    public int nbAgentTeamDeuxMains =30;
+    public int nbAgentTeamBouclier =60;
     public GameObject mage;
     public GameObject deuxMains;
     public GameObject bouclier;
@@ -23,10 +23,11 @@ public class Monde : MonoBehaviour {
     void Start()
     {
         // Generation des listes avec des Instantiate et Init().
-
+        Debug.Log(nbAgentTeam + " " + nbAgentTeamBouclier + " " + nbAgentTeamDeuxMains + " " + nbAgentTeamMage);
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
         teamA = new List<Agent>();
         teamB = new List<Agent>();
+        Debug.Log(nbAgentTeam +" "+nbAgentTeamBouclier+" "+nbAgentTeamDeuxMains +" "+nbAgentTeamMage);
 
         /*TEAM A  */
 
