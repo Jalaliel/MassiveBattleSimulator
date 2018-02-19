@@ -42,12 +42,12 @@ public class Move: MonoBehaviour {
         if (Time.deltaTime > 1e-5f)
             velocity = smoothDeltaPosition / Time.deltaTime;
 
-        bool shouldMove = velocity.magnitude > 0.5f && nevAgent.remainingDistance > nevAgent.radius;
+        bool shouldMove = velocity.magnitude > 1.5f && nevAgent.remainingDistance > nevAgent.radius;
 
         // Update animation parameters
         agent.anim.SetBool("Moving", shouldMove);
-        agent.anim.SetFloat("velx", velocity.x);
-        agent.anim.SetFloat("vely", velocity.y);
+        //agent.anim.SetFloat("velx", velocity.x);
+        //agent.anim.SetFloat("vely", velocity.y);
     }
 
 }

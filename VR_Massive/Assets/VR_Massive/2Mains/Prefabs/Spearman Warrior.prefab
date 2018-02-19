@@ -10,10 +10,10 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 9590292}
   - component: {fileID: 195933894310614158}
-  - component: {fileID: 114937432371028932}
+  - component: {fileID: 114051898643902670}
   m_Layer: 0
   m_Name: Spearman Warrior
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1658,7 +1658,7 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ec9ce9573683d684aa75013daec3884d, type: 3}
-  m_Controller: {fileID: 9100000, guid: bd7136bc5fb95e84f9fce9f000bc7dcb, type: 2}
+  m_Controller: {fileID: 9100000, guid: f0e1748c971fe9d43a05b4bb7e654354, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1775,7 +1775,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
---- !u!114 &114937432371028932
+--- !u!114 &114051898643902670
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1783,13 +1783,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c8ab637625e8a4a86b50917e5e9275, type: 3}
+  m_Script: {fileID: 11500000, guid: 0886f4263c0f7f242ab11ecdab330980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  portee: 0
-  equipeA: 0
-  desti: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!195 &195933894310614158
 NavMeshAgent:
   m_ObjectHideFlags: 1

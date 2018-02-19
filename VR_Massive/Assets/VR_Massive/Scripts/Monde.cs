@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Monde : MonoBehaviour {
 
-    List<Agent> teamA=null;
-    List<Agent> teamB=null;
+    public List<Agent> teamA=null;
+    public List<Agent> teamB=null;
 
     public int nbAgentTeam=0;
     public int nbAgentTeamMage = 2;
@@ -16,11 +16,8 @@ public class Monde : MonoBehaviour {
     public GameObject bouclier;
     public Transform agentsA;
     public Transform agentsB;
-
-    // Proba de toucher
-    private float proba_fort = 0.40f; // Proba de toucher un mec plus fort que soit
-    private float proba_egal = 0.70f;
-    private float proba_faible = 0.90f;
+    public Transform fuite;
+    
 
     // Use this for initialization
     void Start()
@@ -32,10 +29,13 @@ public class Monde : MonoBehaviour {
         teamB = new List<Agent>();
 
         /*TEAM A  */
+
+        /* Pour Antoine: Si tu veux mofifier la position de spawn il faut modifier agentsA.position, tu peux
+         * le remplacer par n'importe quel Vector3 */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
             GameObject NAgent = Instantiate(mage, agentsA.position, agentsA.rotation) as GameObject;
-            teamA.Add(NAgent.GetComponent<Agent_mage>());// TODO A verifier !!!!
+            teamA.Add(NAgent.GetComponent<Agent_mage>());
             teamA[i].Init(this, true, i);
         }
 
@@ -45,7 +45,7 @@ public class Monde : MonoBehaviour {
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
             GameObject NAgent = Instantiate(deuxMains, agentsA.position, agentsA.rotation) as GameObject;
-            teamA.Add(NAgent.GetComponent<Agent_deuxMains>());// TODO A verifier !!!!
+            teamA.Add(NAgent.GetComponent<Agent_deuxMains>());
             teamA[i + decalage].Init(this, true, i + decalage);
         }
         decalage = teamA.Count;
@@ -66,8 +66,8 @@ public class Monde : MonoBehaviour {
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
             GameObject NAgent = Instantiate(mage, agentsB.position, agentsB.rotation) as GameObject;
-            teamB.Add(NAgent.GetComponent<Agent_mage>());// TODO A verifier !!!!
-            teamB[i].Init(this, true, i);
+            teamB.Add(NAgent.GetComponent<Agent_mage>());
+            teamB[i].Init(this, false, i+nbAgentTeam);
         }
 
         decalage = teamB.Count;
@@ -77,8 +77,8 @@ public class Monde : MonoBehaviour {
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
             GameObject NAgent = Instantiate(deuxMains, agentsB.position, agentsB.rotation) as GameObject;
-            teamB.Add(NAgent.GetComponent<Agent_deuxMains>());// TODO A verifier !!!!
-            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB.Add(NAgent.GetComponent<Agent_deuxMains>());
+            teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
         }
         decalage = teamB.Count;
         if (decalage == nbAgentTeamMage + nbAgentTeamDeuxMains)
@@ -87,7 +87,7 @@ public class Monde : MonoBehaviour {
         {
             GameObject NAgent = Instantiate(bouclier, agentsB.position, agentsB.rotation) as GameObject;
             teamB.Add(NAgent.GetComponent<Agent_bouclier>());
-            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
         }
         decalage = teamB.Count;
         if (decalage == nbAgentTeam)
@@ -117,49 +117,58 @@ public class Monde : MonoBehaviour {
         switch (indice)
         {
             case 1:
-                reussi = (Random.Range(1, 10) > 6);
+                reussi = (Random.Range(1, 100) < 40);
                 break;
 
             case 2:
-                reussi = (Random.Range(1, 10) > 3);
+                reussi = (Random.Range(1, 100) < 70);
                 break;
 
             case 3:
-                reussi = (Random.Range(1, 10) > 1);
+                reussi = (Random.Range(1, 100) < 90);
                 break;
             default:
-                Debug.Log("Il y a une couille dans le paté");
+                Debug.Log("Probleme pour l'attaque");
                 break;
         }
         if (reussi)
         {
+            Debug.Log("attaque reussie");
             attaque.SetEtat(attaque.GetEtat() - 1);
-            if (attaque.GetEtat() == 0)
-                this.Tuer(attaque,attaque.equipeA);
+            //if (attaque.GetEtat() <= 0)
+            //{
+            //    this.Tuer(attaque);
+            //}
         }
     }
 
-
-
-    public void Tuer(Agent mort, bool team)
+    public int GetNbTeamA()
     {
-        if (team)
+        return this.teamA.Count;
+    }
+
+    public int GetNbTeamB()
+    {
+        return this.teamB.Count;
+    }
+
+    public void Tuer(Agent mort)
+    {
+        if (mort.equipeA)
         {
-            teamA.Remove(mort);
-            // TODO animation mort
-            Destroy(mort.gameObject, 5);
+            int ind = teamA.FindIndex(x=> (x.idAgent==mort.idAgent));
+            teamA.RemoveAt(ind);
         }
         else
         {
+            int ind = teamA.FindIndex(x => (x.idAgent == mort.idAgent));
             teamB.Remove(mort);
-            // TODO: Animation morts
-            Destroy(mort.gameObject,5);
         }
     }
 
 
-    // Ressors un ennemis à portée de l'attaquant si il y en a un (le premier qu'il trouve), null sinon
-    public Agent EnnemisADisance(Agent attaquant)
+    // Ressors la liste des ennemis à portée
+    public List<Agent> EnnemisADisance(Agent attaquant)
     {
         if (attaquant.equipeA)
             return EnnemisADistanceB(attaquant);
@@ -168,27 +177,23 @@ public class Monde : MonoBehaviour {
     }
 
 
-    private Agent EnnemisADistanceA(Agent attaquant)
+    private List<Agent> EnnemisADistanceA(Agent attaquant)
     {
-        Agent ennemi = null;
-        int i = 0;
-        while ((ennemi==null) & (i < teamA.Count))
-        { 
+        List<Agent> ennemi = new List<Agent>();
+        for (int i = 0; i < teamA.Count; i++)
+        {
             if (Vector3.Distance(this.transform.position, teamA[i].transform.position) < attaquant.portee)
-                ennemi = teamA[i];
-            i++;
+                ennemi.Add(teamA[i]);
         }
         return ennemi;
     }
-    private Agent EnnemisADistanceB(Agent attaquant)
+    private List<Agent> EnnemisADistanceB(Agent attaquant)
     {
-        Agent ennemi = null;
-        int i = 0;
-        while ((ennemi == null) & (i < teamB.Count))
+        List<Agent> ennemi = new List<Agent>();
+        for (int i = 0; i < teamB.Count; i++)
         {
             if (Vector3.Distance(this.transform.position, teamB[i].transform.position) < attaquant.portee)
-                ennemi = teamA[i];
-            i++;
+                ennemi.Add(teamB[i]);
         }
         return ennemi;
     }

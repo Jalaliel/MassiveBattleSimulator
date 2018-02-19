@@ -7,27 +7,28 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Animator))]
 public class Agent : MonoBehaviour {
 
-    private NavMeshAgent agent;
+    protected NavMeshAgent agent;
     public Animator anim;
     private Move m; // ça sert pas à grand chose mais c'est obligatoire pour appeler la méthode
 
     public float portee;
-    protected int idAgent=0;
+    public int idAgent=0;
     public bool equipeA;
     protected Monde terrain=null;
-    protected bool moving;
-    protected int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort, 10 fuite
+    public bool moving;
+    public int etat = 3; // 3 full life, 2 légèrement bléssé, 1 gravement blessé, 0 mort, 10 fuite
  
 
     // Use this for initialization
     protected void StartA ()
     {
-        //Debug.Log("start");
-        agent = GetComponent<NavMeshAgent>();
-        // Don’t update position automatically
-        agent.updatePosition = false;
-        anim = GetComponent<Animator>();
-        m = new Move(agent, anim,this);
+        ////Debug.Log("start");
+        //agent = GetComponent<NavMeshAgent>();
+        //// Don’t update position automatically
+        //agent.updatePosition = false;
+        //anim = GetComponent<Animator>();
+        //m = new Move(agent, anim,this);
+        //etat = 3;
     }
 	
     // Méthode qui sert a récupérer les paramètres de chaque agent. Elle ne devrait être appelée que par le Monde
@@ -41,7 +42,7 @@ public class Agent : MonoBehaviour {
         equipeA = team;
         terrain = monde;
         idAgent = id;
-        etat = 0;
+        etat = 3;
     }
 
     // Set l'etat de l'agent
@@ -55,22 +56,16 @@ public class Agent : MonoBehaviour {
         return this.etat;
     }
 
-    protected void Attaquer(Agent attaque)
-    {
-        // A completer avec le booleen d'animation 
-        this.moving = false;
-        this.anim.SetBool("attack", true);
-        this.terrain.Attaquer(this, attaque);
-    }
 
 	// Set la destination du NavMeshAgent à position et appelle la méthode qui se charge de faire fonctionner le déplacemment et les animations en même temps.
 	protected void LetsMove (Vector3 position) {
+        
         agent.destination = position;
         moving = true;// A virer?
         m.LetsMove();
     }
 
-    protected Agent GetEnnemisPortee()
+    protected List<Agent> GetEnnemisPortee()
     {
         return (terrain.EnnemisADisance(this) );
     }
@@ -83,5 +78,10 @@ public class Agent : MonoBehaviour {
             transform.position = agent.nextPosition;
     }
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            if (Random.Range(1, 100) > 75)
+                etat--;
+    }
 }
