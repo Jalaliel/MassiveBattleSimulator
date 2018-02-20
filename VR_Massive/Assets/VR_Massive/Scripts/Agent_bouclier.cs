@@ -11,7 +11,7 @@ public class Agent_bouclier : Agent {
     {
         // Le "base" sert a apppeler une méthode/attribut de la classe mère (protected ou public seulement)
         base.StartA();// Obligatoire aussi (initialisation de la classe mère)
-        portee = 1; // A changer pour mettre votre portée: j'ai aucune idée de l'unite utilisée donc il faudra faire des test mais j'aurais tendance à dire que on peut dire que c'est des mètres
+        portee = 0.7; // A changer pour mettre votre portée: j'ai aucune idée de l'unite utilisée donc il faudra faire des test mais j'aurais tendance à dire que on peut dire que c'est des mètres
     }
 
     // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
@@ -34,7 +34,7 @@ public class Agent_bouclier : Agent {
                     nbEquipe = this.terrain.GetNbTeamB();
                     nbEquipeEn = this.terrain.GetNbTeamA();
                 }
-                if (Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe)
+                if ((Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe) && (nbEquipeEn >= 2*nbEquipe))
                 {
                     this.enFuite = true; ;
                     this.LetsMove(this.terrain.fuite.position);
@@ -48,7 +48,7 @@ public class Agent_bouclier : Agent {
                     }
                     else
                     {
-                        base.LetsMove(desti.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
+                        base.LetsMove(terrain.EnnemisProche(this).transform.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
                     }
                 }
             }

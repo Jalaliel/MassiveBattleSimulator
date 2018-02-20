@@ -197,4 +197,35 @@ public class Monde : MonoBehaviour {
         }
         return ennemi;
     }
+    private Agent EnnemiProcheA(Agent sujet)
+    {
+        Agent a = teamB[0];
+        List<Agent> temp = EnnemisADisance(sujet);
+        if (temp.Count > 0)
+        {
+            a = temp[0];
+        }
+        return a;
+    }
+    private Agent EnnemiProcheB(Agent sujet)
+    {
+        Agent a = teamA[0];
+        List<Agent> temp = EnnemisADisance(sujet);
+        if (temp.Count > 0)
+        {
+            a = temp[0];
+        }
+        return a;
+    }
+    public Agent EnnemisProche(Agent sujet)
+    {
+        if (sujet.equipeA)
+        {
+            return EnnemiProcheA(sujet);
+        }
+        else
+        {
+            return EnnemiProcheB(sujet);
+        }
+    }
 }

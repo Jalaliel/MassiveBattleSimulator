@@ -11,7 +11,7 @@ public class Agent : MonoBehaviour {
     public Animator anim;
     private Move m; // ça sert pas à grand chose mais c'est obligatoire pour appeler la méthode
 
-    public float portee;
+    public double portee;
     public int idAgent=0;
     public bool equipeA;
     protected Monde terrain=null;
