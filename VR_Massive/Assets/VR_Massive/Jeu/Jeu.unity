@@ -159,6 +159,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4308671462448786, guid: 942fe026ba2919b4682f19fa8a821556,
     type: 2}
   m_PrefabInternal: {fileID: 172006087}
+--- !u!1 &172006089 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1569854637543430, guid: 942fe026ba2919b4682f19fa8a821556,
+    type: 2}
+  m_PrefabInternal: {fileID: 172006087}
 --- !u!1001 &215006879
 Prefab:
   m_ObjectHideFlags: 0
@@ -1086,6 +1091,11 @@ Prefab:
 --- !u!4 &236401031 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4329754515449304, guid: ccd3419c46e72ba4781289e67d2bb910,
+    type: 2}
+  m_PrefabInternal: {fileID: 236401030}
+--- !u!1 &236401032 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1282190145948380, guid: ccd3419c46e72ba4781289e67d2bb910,
     type: 2}
   m_PrefabInternal: {fileID: 236401030}
 --- !u!1001 &241697686
@@ -2389,9 +2399,9 @@ MonoBehaviour:
   mage: {fileID: 1461229397}
   deuxMains: {fileID: 1579883459}
   bouclier: {fileID: 1737944518}
-  mage_complex: {fileID: 0}
-  deuxMains_complex: {fileID: 0}
-  bouclier_complex: {fileID: 0}
+  mage_complex: {fileID: 1861548914}
+  deuxMains_complex: {fileID: 172006089}
+  bouclier_complex: {fileID: 236401032}
   agentsA: {fileID: 639050235}
   agentsB: {fileID: 336308344}
   fuite: {fileID: 1499547018}
@@ -4746,6 +4756,11 @@ Prefab:
 --- !u!4 &1861548913 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4574380918245010, guid: f6184176e493fbd47aacf8af9c0f40bb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1861548912}
+--- !u!1 &1861548914 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1042491080894622, guid: f6184176e493fbd47aacf8af9c0f40bb,
     type: 2}
   m_PrefabInternal: {fileID: 1861548912}
 --- !u!1 &1965945927
