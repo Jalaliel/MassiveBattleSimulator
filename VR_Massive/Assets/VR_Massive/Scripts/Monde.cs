@@ -7,6 +7,9 @@ public class Monde : MonoBehaviour {
     public List<Agent> teamA=null;
     public List<Agent> teamB=null;
 
+	public bool complexIATeamA = false;
+	public bool complexIATeamB = false;
+	
     public int nbAgentTeam=0;
     public int nbAgentTeamMage;
     public int nbAgentTeamDeuxMains;
@@ -14,6 +17,9 @@ public class Monde : MonoBehaviour {
     public GameObject mage;
     public GameObject deuxMains;
     public GameObject bouclier;
+	public GameObject mage_complex;
+    public GameObject deuxMains_complex;
+    public GameObject bouclier_complex;
     public Transform agentsA;
     public Transform agentsB;
     public Transform fuite;
@@ -34,8 +40,16 @@ public class Monde : MonoBehaviour {
          * le remplacer par n'importe quel Vector3 */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-            GameObject NAgent = Instantiate(mage, agentsA.position, agentsA.rotation) as GameObject;
-            teamA.Add(NAgent.GetComponent<Agent_mage>());
+			if(complexIATeamA)
+			{
+				GameObject NAgent = Instantiate(mage_complex, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_mage_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(mage, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_mage>());
+			}
             teamA[i].Init(this, true, i);
         }
 
@@ -44,8 +58,16 @@ public class Monde : MonoBehaviour {
             Debug.Log("Pas de soucis avec les mages A");
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-            GameObject NAgent = Instantiate(deuxMains, agentsA.position, agentsA.rotation) as GameObject;
-            teamA.Add(NAgent.GetComponent<Agent_deuxMains>());
+			if(complexIATeamA)
+			{
+				GameObject NAgent = Instantiate(deuxMains_complex, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(deuxMains, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
+			}
             teamA[i + decalage].Init(this, true, i + decalage);
         }
         decalage = teamA.Count;
@@ -53,8 +75,16 @@ public class Monde : MonoBehaviour {
             Debug.Log("Pas de soucis avec les deuxMains A");
         for (int i = 0; i < nbAgentTeamBouclier; i++)
         {
-            GameObject NAgent = Instantiate(bouclier, agentsA.position, agentsA.rotation) as GameObject;
-            teamA.Add(NAgent.GetComponent<Agent_bouclier>());
+			if(complexIATeamA)
+			{
+				GameObject NAgent = Instantiate(bouclier_complex, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_bouclier_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(bouclier, agentsA.position, agentsA.rotation) as GameObject;
+				teamA.Add(NAgent.GetComponent<Agent_bouclier>());				
+			}
             teamA[i + decalage].Init(this, true, i + decalage);
         }
         decalage = teamA.Count;
@@ -65,8 +95,16 @@ public class Monde : MonoBehaviour {
         /*TEAM B  */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-            GameObject NAgent = Instantiate(mage, agentsB.position, agentsB.rotation) as GameObject;
-            teamB.Add(NAgent.GetComponent<Agent_mage>());
+			if(complexIATeamB)
+			{
+				GameObject NAgent = Instantiate(mage_complex, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_mage_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(mage, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_mage>());				
+			}
             teamB[i].Init(this, false, i+nbAgentTeam);
         }
 
@@ -76,8 +114,16 @@ public class Monde : MonoBehaviour {
 
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-            GameObject NAgent = Instantiate(deuxMains, agentsB.position, agentsB.rotation) as GameObject;
-            teamB.Add(NAgent.GetComponent<Agent_deuxMains>());
+			if(complexIATeamB)
+			{
+				GameObject NAgent = Instantiate(deuxMains_complex, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(deuxMains, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_deuxMains>());				
+			}
             teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
         }
         decalage = teamB.Count;
@@ -85,8 +131,16 @@ public class Monde : MonoBehaviour {
             Debug.Log("Pas de soucis avec les deuxMains B");
         for (int i = 0; i < nbAgentTeamBouclier; i++)
         {
-            GameObject NAgent = Instantiate(bouclier, agentsB.position, agentsB.rotation) as GameObject;
-            teamB.Add(NAgent.GetComponent<Agent_bouclier>());
+			if(complexIATeamB)
+			{
+				GameObject NAgent = Instantiate(bouclier_complex, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_bouclier_complex>());
+			}
+			else
+			{
+				GameObject NAgent = Instantiate(bouclier, agentsB.position, agentsB.rotation) as GameObject;
+				teamB.Add(NAgent.GetComponent<Agent_bouclier>());
+			}
             teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
         }
         decalage = teamB.Count;
