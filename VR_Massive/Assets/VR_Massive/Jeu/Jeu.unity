@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teamA: []
   teamB: []
-  complexIATeamA: 0
+  complexIATeamA: 1
   complexIATeamB: 0
   nbAgentTeam: 0
   nbAgentTeamMage: 20

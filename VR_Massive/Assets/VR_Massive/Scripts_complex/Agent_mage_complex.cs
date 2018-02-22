@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Agent_mage_complex : Agent {
+public class Agent_mage_complex : Agent_complex {
 
     private bool animDeath;
     public Transform desti; // A virer dès qu'on pourra dire à nos agent l'endroit où se déplacer, c'est juste pour les test
