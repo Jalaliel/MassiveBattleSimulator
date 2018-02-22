@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 141f7480bbddce74da4101d025a4d060, type: 3}
+  m_Script: {fileID: 11500000, guid: c641bdb4bae138043abfd6eda8dcae23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
@@ -1818,6 +1818,9 @@ MonoBehaviour:
   moving: 0
   etat: 3
   enFuite: 0
+  distanceAvantSortie: 1
+  nbFrameRefresh: 100
+  viewDistance: 5
   desti: {fileID: 0}
 --- !u!136 &136027393372015532
 CapsuleCollider:

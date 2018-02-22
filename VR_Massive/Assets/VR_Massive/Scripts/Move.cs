@@ -5,7 +5,8 @@ using UnityEngine.AI;
 
 /*[RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]*/
-public class Move: MonoBehaviour {
+public class Move : MonoBehaviour
+{
 
     NavMeshAgent nevAgent;
     private Vector2 smoothDeltaPosition = Vector2.zero;
@@ -17,7 +18,7 @@ public class Move: MonoBehaviour {
 		
 	}*/
 
-    public Move(NavMeshAgent nav, Animator an,Agent ag )
+    public Move(NavMeshAgent nav, Animator an, Agent ag)
     {
         nevAgent = nav;
         anim = an;

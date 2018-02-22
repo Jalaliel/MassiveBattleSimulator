@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Monde : MonoBehaviour {
     // Liste des agents dans chaque équipe encore en vie
-    public List<Agent> teamA=null;
-    public List<Agent> teamB=null;
+    private List<Agent> teamA=null;
+    private List<Agent> teamB=null;
 
     // Booleen
 	public bool complexIATeamA = false; // Vrai si on veut avoir une equipe avec les IA complexes
@@ -43,121 +43,168 @@ public class Monde : MonoBehaviour {
         float profondeur=this.agentsA1.transform.position.x-this.agentsA2.transform.position.x;
         float longueur= this.agentsA1.transform.position.z - this.agentsA2.transform.position.z;
         float dp = profondeur / 3;
-        int max = Mathf.Max(nbAgentTeamBouclier,Mathf.Max(nbAgentTeamDeuxMains,nbAgentTeamMage));
-        float dl = longueur / (spawnSemiAlea ? 1 :max);
+        float dl = longueur;
 
         /* -----------*/
         /*   TEAM A   */
         /* -----------*/
+        float xA = agentsA1.transform.position.x;
+        float zA = agentsA1.transform.position.z;
 
+        // Création des mages de la team A
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-			if(complexIATeamA)
-			{
-				GameObject NAgent = Instantiate(mage_complex, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_mage_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(mage, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_mage>());
-			}
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xA + Random.Range(0, dl), 0.5f, zA + Random.Range(0, dp));
+            else
+                posi = new Vector3(xA + i * dl / nbAgentTeamMage, 0.5f, zA);
+            GameObject NAgent = Instantiate(mage, posi, agentsA1.rotation) as GameObject;
+            if (complexIATeamA)
+                teamA.Add(NAgent.GetComponent<Agent_mage_complex>());
+            else
+                teamA.Add(NAgent.GetComponent<Agent_mage>());
             teamA[i].Init(this, true, i);
+            teamA[i].gameObject.GetComponent<Agent_mage>().enabled=!complexIATeamA;
+            teamA[i].gameObject.GetComponent<Agent_mage_complex>().enabled = complexIATeamA;
+            teamA[i].gameObject.SetActive(false);
         }
-
+        // Vérification qu'on a bien créé le bon nombre de mages
         int decalage = teamA.Count;
         if (decalage == nbAgentTeamMage)
             Debug.Log("Pas de soucis avec les mages A");
+
+        // Création des combattants à deux mains    
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-			if(complexIATeamA)
-			{
-				GameObject NAgent = Instantiate(deuxMains_complex, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(deuxMains, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
-			}
-            teamA[i + decalage].Init(this, true, i + decalage);
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xA + Random.Range(0, dl), 0.5f, zA + dp+ Random.Range(0, dp));
+            else
+                posi = new Vector3(xA + i * dl / nbAgentTeamDeuxMains, 0.5f, zA+dp);
+            GameObject NAgent = Instantiate(deuxMains, posi, agentsA1.rotation) as GameObject;
+            if (complexIATeamA)
+                teamA.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
+            else
+                teamA.Add(NAgent.GetComponent<Agent_deuxMains>());
+            teamA[i + decalage].Init(this, true, i+decalage);
+            teamA[i + decalage].gameObject.GetComponent<Agent_deuxMains>().enabled = !complexIATeamA;
+            teamA[i + decalage].gameObject.GetComponent<Agent_deuxMains_complex>().enabled = complexIATeamA;
+            teamA[i + decalage].gameObject.SetActive(false);
         }
+        // Verification du bon dérouelement de la création des combattants à deux mains de la team A
         decalage = teamA.Count;
         if (decalage == nbAgentTeamMage + nbAgentTeamDeuxMains)
             Debug.Log("Pas de soucis avec les deuxMains A");
+
+
+        // Création des combattants avec un bouclier    
         for (int i = 0; i < nbAgentTeamBouclier; i++)
         {
-			if(complexIATeamA)
-			{
-				GameObject NAgent = Instantiate(bouclier_complex, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_bouclier_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(bouclier, agentsA.position, agentsA.rotation) as GameObject;
-				teamA.Add(NAgent.GetComponent<Agent_bouclier>());				
-			}
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xA + Random.Range(0, dl), 0.5f, zA + 2*dp + Random.Range(0, dp));
+            else
+                posi = new Vector3(xA + i * dl / nbAgentTeamBouclier, 0.5f, zA + 2*dp);
+            GameObject NAgent = Instantiate(bouclier, posi, agentsA1.rotation) as GameObject;
+            if (complexIATeamA)
+                teamA.Add(NAgent.GetComponent<Agent_bouclier_complex>());
+            else
+                teamA.Add(NAgent.GetComponent<Agent_bouclier>());
             teamA[i + decalage].Init(this, true, i + decalage);
+            teamA[i + decalage].gameObject.GetComponent<Agent_bouclier>().enabled = !complexIATeamA;
+            teamA[i + decalage].gameObject.GetComponent<Agent_bouclier_complex>().enabled = complexIATeamA;
+            teamA[i + decalage].gameObject.SetActive(false);
         }
+        // Verification du bon dérouelement de la création des combattants avec un bouclier de la team A
         decalage = teamA.Count;
         if (decalage == nbAgentTeam)
             Debug.Log("Pas de soucis avec les boubou A");
 
 
-        /*TEAM B  */
+        /* -----------*/
+        /*   TEAM B   */
+        /* -----------*/
+        float xB = agentsB1.transform.position.x;
+        float zB = agentsB1.transform.position.z;
+
+        // Création des mages de la team B
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
-			if(complexIATeamB)
-			{
-				GameObject NAgent = Instantiate(mage_complex, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_mage_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(mage, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_mage>());				
-			}
-            teamB[i].Init(this, false, i+nbAgentTeam);
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + Random.Range(0, dp));
+            else
+                posi = new Vector3(xB + i * dl / nbAgentTeamMage, 0.5f, zB);
+            GameObject NAgent = Instantiate(mage, posi, agentsB1.rotation) as GameObject;
+            if (complexIATeamB)
+                teamB.Add(NAgent.GetComponent<Agent_mage_complex>());
+            else
+                teamB.Add(NAgent.GetComponent<Agent_mage>());
+            teamB[i].Init(this, true, i);
+            teamB[i].gameObject.GetComponent<Agent_mage>().enabled = !complexIATeamB;
+            teamB[i].gameObject.GetComponent<Agent_mage_complex>().enabled = complexIATeamB;
+            teamB[i].gameObject.SetActive(false);
         }
-
+        // Vérification qu'on a bien créé le bon nombre de mages
         decalage = teamB.Count;
         if (decalage == nbAgentTeamMage)
             Debug.Log("Pas de soucis avec les mages B");
 
+        // Création des combattants à deux mains    
         for (int i = 0; i < nbAgentTeamDeuxMains; i++)
         {
-			if(complexIATeamB)
-			{
-				GameObject NAgent = Instantiate(deuxMains_complex, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(deuxMains, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_deuxMains>());				
-			}
-            teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + dp + Random.Range(0, dp));
+            else
+                posi = new Vector3(xB + i * dl / nbAgentTeamDeuxMains, 0.5f, zB + dp);
+            GameObject NAgent = Instantiate(deuxMains, posi, agentsB1.rotation) as GameObject;
+            if (complexIATeamB)
+                teamB.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
+            else
+                teamB.Add(NAgent.GetComponent<Agent_deuxMains>());
+            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains>().enabled = !complexIATeamB;
+            teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains_complex>().enabled = complexIATeamB;
+            teamB[i + decalage].gameObject.SetActive(false);
         }
+        // Verification du bon dérouelement de la création des combattants à deux mains de la team B
         decalage = teamB.Count;
         if (decalage == nbAgentTeamMage + nbAgentTeamDeuxMains)
             Debug.Log("Pas de soucis avec les deuxMains B");
+
+
+        // Création des combattants avec un bouclier    
         for (int i = 0; i < nbAgentTeamBouclier; i++)
         {
-			if(complexIATeamB)
-			{
-				GameObject NAgent = Instantiate(bouclier_complex, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_bouclier_complex>());
-			}
-			else
-			{
-				GameObject NAgent = Instantiate(bouclier, agentsB.position, agentsB.rotation) as GameObject;
-				teamB.Add(NAgent.GetComponent<Agent_bouclier>());
-			}
-            teamB[i + decalage].Init(this, false, i + decalage + nbAgentTeam);
+            Vector3 posi;
+            if (spawnSemiAlea)
+                posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + 2 * dp + Random.Range(0, dp));
+            else
+                posi = new Vector3(xB + i * dl / nbAgentTeamBouclier, 0.5f, zB + 2*dp);
+            GameObject NAgent = Instantiate(bouclier, posi, agentsB1.rotation) as GameObject;
+            if (complexIATeamB)
+                teamB.Add(NAgent.GetComponent<Agent_bouclier_complex>());
+            else
+                teamB.Add(NAgent.GetComponent<Agent_bouclier>());
+            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB[i + decalage].gameObject.GetComponent<Agent_bouclier>().enabled = !complexIATeamB;
+            teamB[i + decalage].gameObject.GetComponent<Agent_bouclier_complex>().enabled = complexIATeamB;
+            teamB[i + decalage].gameObject.SetActive(false);
         }
+        // Verification du bon dérouelement de la création des combattants avec un bouclier de la team B
         decalage = teamB.Count;
         if (decalage == nbAgentTeam)
             Debug.Log("Pas de soucis avec les boubou B");
+
+        // Maintenant on active les machins
+        for (int i=0;i<teamA.Count;i++)
+            teamA[i].gameObject.SetActive(true);
+        for (int i = 0; i < teamB.Count; i++)
+            teamB[i].gameObject.SetActive(true);
+
+
     }
 
         // Update is called once per frame
@@ -173,6 +220,16 @@ public class Monde : MonoBehaviour {
         for (int i = 0; i < teamB.Count; i++)
             temp += teamB[i].transform.position;
         this.centreDeGraviteB = temp / teamB.Count;
+    }
+
+    public List<Agent> getTeamA()
+    {
+       
+        return new List<Agent>(this.teamA);
+    }
+    public List<Agent> getTeamB()
+    {
+        return new List<Agent>(this.teamA);
     }
 
     public int nbAPortee(bool teamVoulueA, Agent demandeur,double portee)
@@ -268,8 +325,7 @@ public class Monde : MonoBehaviour {
         else
             return EnnemisADistanceA(attaquant);
     }
-
-
+    
     private List<Agent> EnnemisADistanceA(Agent attaquant)
     {
         List<Agent> ennemi = new List<Agent>();
