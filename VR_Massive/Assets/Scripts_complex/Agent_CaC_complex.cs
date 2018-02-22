@@ -17,7 +17,7 @@ public abstract class Agent_CaC_complex : Agent_complex {
 				}
 			this.anim.SetTrigger ("attack");
 			this.transform.LookAt (ennemiATaper.transform);
-			StartCoroutine (Wait (10f));
+			StartCoroutine (Wait (3.5f));
 			this.terrain.Attaquer (this, ennemiATaper);
 			return true;
 		} else

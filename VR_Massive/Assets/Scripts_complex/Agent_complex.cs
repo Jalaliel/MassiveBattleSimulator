@@ -9,7 +9,6 @@ public abstract class Agent_complex : Agent {
 	public int distanceAvantSortie = 1;
 	public int nbFrameRefresh = 100;
 	private int compteurPeur;
-	private int compteurCible;
 	public double viewDistance = 5.0;
 	public string reactEnCours = "";
 	private Vector3 cible;
@@ -19,7 +18,6 @@ public abstract class Agent_complex : Agent {
 		animDeath = false;
 		cible = this.transform.position;
 		compteurPeur = Random.Range(0, nbFrameRefresh - 1);
-		compteurCible = Random.Range(0, nbFrameRefresh - 1);
 	}
 
 	void Update()
