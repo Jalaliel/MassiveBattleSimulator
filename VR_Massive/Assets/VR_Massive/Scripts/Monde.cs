@@ -40,8 +40,8 @@ public class Monde : MonoBehaviour {
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
         teamA = new List<Agent>();
         teamB = new List<Agent>();
-        float profondeur=this.agentsA1.transform.position.x-this.agentsA2.transform.position.x;
-        float longueur= this.agentsA1.transform.position.z - this.agentsA2.transform.position.z;
+        float longueur=this.agentsA2.transform.position.x-this.agentsA1.transform.position.x;
+        float profondeur= this.agentsA2.transform.position.z - this.agentsA1.transform.position.z;
         float dp = profondeur / 3;
         float dl = longueur;
 
@@ -133,15 +133,15 @@ public class Monde : MonoBehaviour {
         {
             Vector3 posi;
             if (spawnSemiAlea)
-                posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + Random.Range(0, dp));
+				posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB+2*dp+ Random.Range(0, dp));
             else
-                posi = new Vector3(xB + i * dl / nbAgentTeamMage, 0.5f, zB);
+				posi = new Vector3(xB + i * dl / nbAgentTeamMage, 0.5f, zB+2*dp);
             GameObject NAgent = Instantiate(mage, posi, agentsB1.rotation) as GameObject;
             if (complexIATeamB)
                 teamB.Add(NAgent.GetComponent<Agent_mage_complex>());
             else
                 teamB.Add(NAgent.GetComponent<Agent_mage>());
-            teamB[i].Init(this, true, i);
+            teamB[i].Init(this, false, i);
             teamB[i].gameObject.GetComponent<Agent_mage>().enabled = !complexIATeamB;
             teamB[i].gameObject.GetComponent<Agent_mage_complex>().enabled = complexIATeamB;
             teamB[i].gameObject.SetActive(false);
@@ -164,7 +164,7 @@ public class Monde : MonoBehaviour {
                 teamB.Add(NAgent.GetComponent<Agent_deuxMains_complex>());
             else
                 teamB.Add(NAgent.GetComponent<Agent_deuxMains>());
-            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB[i + decalage].Init(this, false, i + decalage);
             teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains>().enabled = !complexIATeamB;
             teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains_complex>().enabled = complexIATeamB;
             teamB[i + decalage].gameObject.SetActive(false);
@@ -180,20 +180,20 @@ public class Monde : MonoBehaviour {
         {
             Vector3 posi;
             if (spawnSemiAlea)
-                posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + 2 * dp + Random.Range(0, dp));
+				posi = new Vector3(xB + Random.Range(0, dl), 0.5f, zB + Random.Range(0, dp));
             else
-                posi = new Vector3(xB + i * dl / nbAgentTeamBouclier, 0.5f, zB + 2*dp);
+                posi = new Vector3(xB + i * dl / nbAgentTeamBouclier, 0.5f, zB );
             GameObject NAgent = Instantiate(bouclier, posi, agentsB1.rotation) as GameObject;
             if (complexIATeamB)
                 teamB.Add(NAgent.GetComponent<Agent_bouclier_complex>());
             else
                 teamB.Add(NAgent.GetComponent<Agent_bouclier>());
-            teamB[i + decalage].Init(this, true, i + decalage);
+            teamB[i + decalage].Init(this, false, i + decalage);
             teamB[i + decalage].gameObject.GetComponent<Agent_bouclier>().enabled = !complexIATeamB;
             teamB[i + decalage].gameObject.GetComponent<Agent_bouclier_complex>().enabled = complexIATeamB;
             teamB[i + decalage].gameObject.SetActive(false);
         }
-        // Verification du bon dérouelement de la création des combattants avec un bouclier de la team B
+        // Verification du bon déroulement de la création des combattants avec un bouclier de la team B
         decalage = teamB.Count;
         if (decalage == nbAgentTeam)
             Debug.Log("Pas de soucis avec les boubou B");
@@ -213,23 +213,24 @@ public class Monde : MonoBehaviour {
         // Update du centre de gravité de la team A
         Vector3 temp = new Vector3();
         for (int i = 0; i < teamA.Count; i++)
-            temp += teamA[i].transform.position;
+			if(teamA[i] != null)
+            	temp += teamA[i].transform.position;
         this.centreDeGraviteA = temp / teamA.Count;
         // Update du centre de gravité de la team B
         temp = new Vector3();
         for (int i = 0; i < teamB.Count; i++)
-            temp += teamB[i].transform.position;
+			if(teamB[i] != null)
+            	temp += teamB[i].transform.position;
         this.centreDeGraviteB = temp / teamB.Count;
     }
 
     public List<Agent> getTeamA()
     {
-       
         return new List<Agent>(this.teamA);
     }
     public List<Agent> getTeamB()
     {
-        return new List<Agent>(this.teamA);
+        return new List<Agent>(this.teamB);
     }
 
     public int nbAPortee(bool teamVoulueA, Agent demandeur,double portee)
@@ -278,7 +279,7 @@ public class Monde : MonoBehaviour {
                 reussi = (Random.Range(1, 100) < 90);
                 break;
             default:
-                Debug.Log("Probleme pour l'attaque");
+				Debug.LogError("Probleme pour l'attaque");
                 break;
         }
         if (reussi)
@@ -331,17 +332,17 @@ public class Monde : MonoBehaviour {
         List<Agent> ennemi = new List<Agent>();
         for (int i = 0; i < teamA.Count; i++)
         {
-            if (Vector3.Distance(this.transform.position, teamA[i].transform.position) < attaquant.portee)
+			if (Vector3.Distance(attaquant.transform.position, teamA[i].transform.position) < attaquant.portee)
                 ennemi.Add(teamA[i]);
         }
         return ennemi;
     }
     private List<Agent> EnnemisADistanceB(Agent attaquant)
     {
-        List<Agent> ennemi = new List<Agent>();
+		List<Agent> ennemi = new List<Agent>();
         for (int i = 0; i < teamB.Count; i++)
         {
-            if (Vector3.Distance(this.transform.position, teamB[i].transform.position) < attaquant.portee)
+			if (Vector3.Distance(this.transform.position, teamB[i].transform.position) < attaquant.portee)
                 ennemi.Add(teamB[i]);
         }
         return ennemi;

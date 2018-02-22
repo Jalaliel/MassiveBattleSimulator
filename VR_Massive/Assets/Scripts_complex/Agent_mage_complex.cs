@@ -4,110 +4,36 @@ using UnityEngine;
 
 
 public class Agent_mage_complex : Agent_complex {
-
-    private bool animDeath;
-    public Transform desti; // A virer dès qu'on pourra dire à nos agent l'endroit où se déplacer, c'est juste pour les test
-    // A mettre obligatoirement au début (appelé lors du Instantiate ou au lancement) du coup obligatoire!!! Sert de constructeur
-    void Start() {
-        // Le "base" sert a apppeler une méthode/attribut de la classe mère (protected ou public seulement)
-        base.StartA();// Obligatoire aussi (initialisation de la classe mère)
-        portee = 10; // A changer pour mettre votre portée: j'ai aucune idée de l'unite utilisée donc il faudra faire des test mais j'aurais tendance à dire que on peut dire que c'est des mètres
-        animDeath = false;
-    }
-
-    // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
-    void Update ()
-    {
-        if (this.etat > 0)
-        {
-
-            if (!enFuite)
-            {
-                int nbEquipe = 0;
-                int nbEquipeEn = 0;
-                if (equipeA)
-                {
-                    nbEquipe = this.terrain.GetNbTeamA();
-                    nbEquipeEn = this.terrain.GetNbTeamB();
-                }
-                else
-                {
-                    nbEquipe = this.terrain.GetNbTeamB();
-                    nbEquipeEn = this.terrain.GetNbTeamA();
-                }
-                if ((Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe) && (nbEquipeEn >= 2*nbEquipe))
-                {
-                    this.enFuite=true;
-                    this.LetsMove(this.terrain.fuite.position);
-                }
-                else
-                {
-                    List<Agent> ennemis = GetEnnemisPortee();
-                    if (ennemis.Count > 0)
-                    {
-                        this.Attaquer(ennemis);
-                        
-                    }
-                    else
-                    {
-                        base.LetsMove(terrain.EnnemisProche(this).transform.position);// Exemple pour le déplacement. Il suffit d'un Vector3.
-
-                    }
-                }
-            }
-            else
-            {
-                // TODO: implémentation de la fuite à faire (en gros mettre une destination en dehors de la map)
-                if ((this.transform.position.x > 99) || (this.transform.position.x < -99) || (this.transform.position.z > 99) || (this.transform.position.z < -99))
-                { 
-                    base.terrain.Tuer(this);
-                    Destroy(this.gameObject);
-                }
-                // TODO: checker la sortie de map et appeler Monde.Tuer
-            }
-        }
-        else
-        {
-            this.moving = false;
-            this.anim.SetBool("Moving", false);
-            // TODO: Animation morts
-            if (!animDeath)
-            {
-                this.anim.SetTrigger("dead");
-                this.terrain.Tuer(this);
-                Destroy(this.gameObject, 3.5f);
-                this.animDeath = true;
-            }
-        }
+	public override void Start()
+	{
+		this.portee = 10;
+		base.StartA ();
 	}
 
-    protected void Attaquer(List<Agent> attaque)
-    {
-        // A completer avec le booleen d'animation 
-        this.moving = false;
-        this.anim.SetBool("Moving", false);
-        this.anim.SetTrigger("attack");
-        StartCoroutine(Wait());
-        if (Random.Range(1, 10) <= 1) { this.terrain.Attaquer(this, attaque[0]); }
-        
-    }
+	protected override bool selectTaper()
+	{
+		List<Agent> ennemis = terrain.EnnemisADisance (this);
+		if (ennemis.Count > 0) {
+			Debug.Log ("Attaque");
+			Agent ennemiATaper = ennemis [0];
+			bool isAgentFaible = ennemis [0].GetType ().Name.Contains (fortContre ());
+			int size = ennemis.Count;
+			for (int i = 0; i < size && !isAgentFaible; i++)
+				if (ennemis [i].GetType ().Name.Contains (fortContre ())) {
+					ennemiATaper = ennemis [i];
+					isAgentFaible = true;
+				}
+			this.anim.SetTrigger ("attack");
+			this.transform.LookAt (ennemiATaper.transform);
+			StartCoroutine (Wait (10f));
+			this.terrain.Attaquer (this, ennemiATaper);
+			return true;
+		} else
+			return false;
+	}
 
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(3.5f);
-    }
-
-    void Hit()
-    {
-
-    }
-
-    void FootR()
-    {
-    }
-
-    void FootL()
-    {
-    }
-
+	protected override string fortContre()
+	{
+		return "Agent_deuxMains";
+	}
 }

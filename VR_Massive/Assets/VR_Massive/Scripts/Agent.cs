@@ -60,7 +60,7 @@ public class Agent : MonoBehaviour {
 
 
 	// Set la destination du NavMeshAgent à position et appelle la méthode qui se charge de faire fonctionner le déplacemment et les animations en même temps.
-	protected void LetsMove (Vector3 position) {
+	protected virtual void LetsMove (Vector3 position) {
         
         agent.destination = position;
         moving = true;// A virer?
