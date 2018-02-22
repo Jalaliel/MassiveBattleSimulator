@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 195135336346424316}
   - component: {fileID: 114362123577679070}
   - component: {fileID: 136799558003839576}
+  - component: {fileID: 114223904584562072}
   m_Layer: 0
   m_Name: Hammer Warrior
   m_TagString: Untagged
@@ -839,7 +840,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.82, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 408302}
@@ -1776,6 +1777,25 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!114 &114223904584562072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca52a5c8644fd74f9653f25623c625b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  portee: 0
+  idAgent: 0
+  equipeA: 0
+  moving: 0
+  etat: 3
+  enFuite: 0
+  desti: {fileID: 0}
 --- !u!114 &114362123577679070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1793,6 +1813,7 @@ MonoBehaviour:
   equipeA: 0
   moving: 0
   etat: 3
+  enFuite: 0
   desti: {fileID: 0}
 --- !u!136 &136799558003839576
 CapsuleCollider:

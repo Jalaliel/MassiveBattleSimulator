@@ -3,27 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Monde : MonoBehaviour {
-
+    // Liste des agents dans chaque équipe encore en vie
     public List<Agent> teamA=null;
     public List<Agent> teamB=null;
 
-	public bool complexIATeamA = false;
+    // Booleen
+	public bool complexIATeamA = false; // Vrai si on veut avoir une equipe avec les IA complexes
 	public bool complexIATeamB = false;
+    public bool spawnSemiAlea; // Vrai si le spawn est semi aléatoire, faux si le point de spawn est fixé pour chaque agent
 	
     public int nbAgentTeam=0;
     public int nbAgentTeamMage;
     public int nbAgentTeamDeuxMains;
     public int nbAgentTeamBouclier;
+
     public GameObject mage;
     public GameObject deuxMains;
     public GameObject bouclier;
-	public GameObject mage_complex;
-    public GameObject deuxMains_complex;
-    public GameObject bouclier_complex;
-    public Transform agentsA;
-    public Transform agentsB;
-    public Transform fuite;
-    
+
+    public Transform agentsA1;
+    public Transform agentsA2;
+    public Transform agentsB1;
+    public Transform agentsB2;
+    public Transform fuite; // Utile seulement pour les agents pas complexes
+
+    public Vector3 centreDeGraviteA { get; private set; }
+    public Vector3 centreDeGraviteB { get; private set; }
+
+
 
     // Use this for initialization
     void Start()
@@ -33,11 +40,16 @@ public class Monde : MonoBehaviour {
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
         teamA = new List<Agent>();
         teamB = new List<Agent>();
+        float profondeur=this.agentsA1.transform.position.x-this.agentsA2.transform.position.x;
+        float longueur= this.agentsA1.transform.position.z - this.agentsA2.transform.position.z;
+        float dp = profondeur / 3;
+        int max = Mathf.Max(nbAgentTeamBouclier,Mathf.Max(nbAgentTeamDeuxMains,nbAgentTeamMage));
+        float dl = longueur / (spawnSemiAlea ? 1 :max);
 
-        /*TEAM A  */
+        /* -----------*/
+        /*   TEAM A   */
+        /* -----------*/
 
-        /* Pour Antoine: Si tu veux mofifier la position de spawn il faut modifier agentsA.position, tu peux
-         * le remplacer par n'importe quel Vector3 */
         for (int i = 0; i < nbAgentTeamMage; i++)
         {
 			if(complexIATeamA)
@@ -149,10 +161,37 @@ public class Monde : MonoBehaviour {
     }
 
         // Update is called once per frame
-        void Update ()
-        {
+    void Update ()
+    {
+        // Update du centre de gravité de la team A
+        Vector3 temp = new Vector3();
+        for (int i = 0; i < teamA.Count; i++)
+            temp += teamA[i].transform.position;
+        this.centreDeGraviteA = temp / teamA.Count;
+        // Update du centre de gravité de la team B
+        temp = new Vector3();
+        for (int i = 0; i < teamB.Count; i++)
+            temp += teamB[i].transform.position;
+        this.centreDeGraviteB = temp / teamB.Count;
+    }
 
+    public int nbAPortee(bool teamVoulueA, Agent demandeur,double portee)
+    {
+        int nb = 0;
+        if (teamVoulueA)
+        {
+            for (int i = 0; i < teamA.Count; i++)
+                if (Vector3.Distance(demandeur.transform.position, teamA[i].transform.position) < portee)
+                    nb++;
         }
+        else
+        {
+            for (int i = 0; i < teamB.Count; i++)
+                if (Vector3.Distance(demandeur.transform.position, teamB[i].transform.position) < portee)
+                    nb++;
+        }
+        return nb;
+    }
 
 
     public void Attaquer(Agent attaquant, Agent attaque)
