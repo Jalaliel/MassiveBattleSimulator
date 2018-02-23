@@ -25,7 +25,7 @@ public class Agent_mage_complex : Agent_complex {
 				}
 			this.anim.SetTrigger ("attack");
 			this.transform.LookAt (ennemiATaper.transform);
-			StartCoroutine (Wait (3.5f));
+			Wait (3.5f);
 			this.terrain.Attaquer (this, ennemiATaper);
 			return true;
 		} else

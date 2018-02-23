@@ -1618,7 +1618,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180302}
-  m_LocalRotation: {x: 0.7402965, y: 0.6703803, z: -0.040843926, w: 0.0297205}
+  m_LocalRotation: {x: 0.7402964, y: 0.67038023, z: -0.040843923, w: 0.029720452}
   m_LocalPosition: {x: -0.3996879, y: 1.3137013, z: -0.008871467}
   m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_Children: []
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e89eac1ea756a3341ae973d785096314, type: 3}
+  m_Script: {fileID: 11500000, guid: da0aacf8231765f4f85760ebaf0abf0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
@@ -1895,10 +1895,11 @@ MonoBehaviour:
   moving: 0
   etat: 3
   enFuite: 0
+  nbEchantillon: 10
   distanceAvantSortie: 1
   nbFrameRefresh: 100
   viewDistance: 5
-  desti: {fileID: 0}
+  reactEnCours: 
 --- !u!136 &136526929453384574
 CapsuleCollider:
   m_ObjectHideFlags: 1

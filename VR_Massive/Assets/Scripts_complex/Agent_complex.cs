@@ -4,11 +4,23 @@ using UnityEngine;
 
 public abstract class Agent_complex : Agent {
 
-	private bool animDeath;
-	public int nbEchantillon = 10;
+	private bool animDeath; //Vrai si le processus pour tuer l'agent a été lancé (pour éviter de le lancer plusieurs fois)
+
+	/// <summary>
+	/// Nombre d'ennemis dans l'échantillon dans lequel on choisi une cible dans choisirPlusProche
+	/// </summary>
+	public int nbEchantillon = 10;  
+
+	/// <summary>
+	/// La distance maximale à laquelle un adversaire doit être du bord du terrain pour être considéré comme sorti
+	/// </summary>
 	public int distanceAvantSortie = 1;
+
+	/// <summary>
+	/// Le nombre de frames avant que la valeur de peur ne soit à nouveau calculée
+	/// </summary>
 	public int nbFrameRefresh = 100;
-	private int compteurPeur;
+	private int compteurPeur; //Le nombre de frames depuis lesquelles la peur a été calculée, 
 	public double viewDistance = 5.0;
 	public string reactEnCours = "";
 	private Vector3 cible;
@@ -40,7 +52,7 @@ public abstract class Agent_complex : Agent {
 			this.animDeath = true;
 			this.anim.SetTrigger("dead");
 			Destroy(this.gameObject, timeToDie);
-			StartCoroutine (Wait (timeToDie));
+			Wait (timeToDie);
 		}
 	}
 		
@@ -68,17 +80,16 @@ public abstract class Agent_complex : Agent {
 	protected bool peur()
 	{
 		compteurPeur++;
-		if (compteurPeur >= nbFrameRefresh)
-		{
+		if (compteurPeur >= nbFrameRefresh) {
 			compteurPeur = 0;
 			int chanceFuite = 0;
 			switch (etat) {
-				case 1:
-					chanceFuite += 3;
-					break;
-				case 2:
-					chanceFuite++;
-					break;
+			case 1:
+				chanceFuite += 3;
+				break;
+			case 2:
+				chanceFuite++;
+				break;
 			}
 			if (enFuite)
 				chanceFuite += 5;
@@ -88,29 +99,36 @@ public abstract class Agent_complex : Agent {
 				chanceFuite++;
 			if (nbAllies < nbEnnemis * 2)
 				chanceFuite++;
-			return (Random.Range (0, 10) < chanceFuite);
-		} 
-		else
-			return enFuite;
+			enFuite = (Random.Range (0, 10) < chanceFuite);
+		}
+		return enFuite;
 	}
 		
 	protected void priseDeDecision()
 	{
 		reactEnCours = "Prise de décision";
-		if (etat <= 0) {
+		if (etat <= 0) 
+		{
 			reactEnCours = "mourir";
 			mourir (3.5f);
-		} else if (sorti ()) {
+		} 
+		else if (sorti ()) 
+		{
 			reactEnCours = "disparaitre";
 			disparaitre ();
-		} else if (peur ()) {
+		} 
+		else if (peur ()) 
+		{
 			reactEnCours = "fuir";
 			fuir ();
-		} else if (!selectTaper ()) {
+		}
+		else if (!selectTaper ()) 
+		{
 			reactEnCours = "move";
 			Vector3 dest = choisirPlusProche ();
 			LetsMove (dest);
-		} else
+		} 
+		else
 			reactEnCours = "taper";
 	}
 
