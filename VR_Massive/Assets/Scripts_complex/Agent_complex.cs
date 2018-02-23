@@ -23,12 +23,10 @@ public abstract class Agent_complex : Agent {
 	private int compteurPeur; //Le nombre de frames depuis lesquelles la peur a été calculée, 
 	public double viewDistance = 5.0;
 	public string reactEnCours = "";
-	private Vector3 cible;
 
 	public virtual void Start()
 	{
 		animDeath = false;
-		cible = this.transform.position;
 		compteurPeur = Random.Range(0, nbFrameRefresh - 1);
 	}
 
