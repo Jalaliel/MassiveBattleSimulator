@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Agent_CaC_complex : Agent_complex {
+	/// <summary>
+	/// <see cref="Agent_complex.selectTaper()"/>
+	/// </summary>
 	protected override bool selectTaper()
 	{
 		List<Agent> ennemis = terrain.EnnemisADisance (this);

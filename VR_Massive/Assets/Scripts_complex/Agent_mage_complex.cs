@@ -4,12 +4,18 @@ using UnityEngine;
 
 
 public class Agent_mage_complex : Agent_complex {
+	/// <summary>
+	/// <see cref="Agent_complexe.Start()"/>
+	/// </summary>
 	public override void Start()
 	{
 		this.portee = 10;
 		base.StartA ();
 	}
 
+	/// <summary>
+	/// <see cref="Agent_complex.selectTaper()"/>
+	/// </summary>
 	protected override bool selectTaper()
 	{
 		List<Agent> ennemis = terrain.EnnemisADisance (this);
@@ -32,6 +38,9 @@ public class Agent_mage_complex : Agent_complex {
 			return false;
 	}
 
+	/// <summary>
+	/// <see cref="Agent_complex.fortContre()"/>
+	/// </summary>
 	protected override string fortContre()
 	{
 		return "Agent_deuxMains";
