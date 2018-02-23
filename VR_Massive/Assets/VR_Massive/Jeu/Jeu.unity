@@ -151,16 +151,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114362123577679070, guid: 4a7441f1d5a8ae743bf566df921cc08d,
-        type: 2}
-      propertyPath: desti
-      value: 
-      objectReference: {fileID: 1965945928}
-    - target: {fileID: 195135336346424316, guid: 4a7441f1d5a8ae743bf566df921cc08d,
-        type: 2}
-      propertyPath: m_ObstacleAvoidanceType
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a7441f1d5a8ae743bf566df921cc08d, type: 2}
   m_IsPrefabParent: 0
@@ -2341,7 +2331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   complexIATeamA: 1
   complexIATeamB: 1
-  spawnSemiAlea: 0
+  spawnSemiAlea: 1
   nbAgentTeam: 0
   nbAgentTeamMage: 20
   nbAgentTeamDeuxMains: 50
@@ -3766,7 +3756,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 440780, guid: a689a4383c7ee704baeaebcc95448ecc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -26.3
+      value: -56.5
       objectReference: {fileID: 0}
     - target: {fileID: 440780, guid: a689a4383c7ee704baeaebcc95448ecc, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4692,7 +4682,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4872504654109266, guid: 586534c0f9a745b4086c007888993b85, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -24.3
+      value: -36.7
       objectReference: {fileID: 0}
     - target: {fileID: 4872504654109266, guid: 586534c0f9a745b4086c007888993b85, type: 2}
       propertyPath: m_LocalPosition.y
