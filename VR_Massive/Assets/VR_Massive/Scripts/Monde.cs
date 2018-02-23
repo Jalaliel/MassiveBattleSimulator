@@ -8,46 +8,44 @@ public class Monde : MonoBehaviour {
     private List<Agent> teamB=null;
 
     // Booleen
-	public bool complexIATeamA = false; // Vrai si on veut avoir une equipe avec les IA complexes
+	public bool complexIATeamA = false; // Vrai si on veut avoir l'equipe A avec les IA complexes
 	public bool complexIATeamB = false;
-    public bool spawnSemiAlea; // Vrai si le spawn est semi aléatoire, faux si le point de spawn est fixé pour chaque agent
+    public bool spawnSemiAlea; // Vrai si le spawn est semi aléatoire, faux si le point de spawn est fixé pour chaque agent (expliqué dans le rapport
 	
-    public int nbAgentTeam=0;
-    public int nbAgentTeamMage;
+    public int nbAgentTeam=0; // Nombre d'agents total par équipe
+    public int nbAgentTeamMage; // Nombre d'agents mages dans chaque équipe. Pour des raisons de facilités, les deux équipes ont le même nombre d'agents de chaque type
     public int nbAgentTeamDeuxMains;
     public int nbAgentTeamBouclier;
 
-    public GameObject mage;
+    public GameObject mage;  // Préfab qui nous servent à instancier les GameObject
     public GameObject deuxMains;
     public GameObject bouclier;
 
-    public Transform agentsA1;
+    public Transform agentsA1; // Positions utiles pour les spawn
     public Transform agentsA2;
     public Transform agentsB1;
     public Transform agentsB2;
-    public Transform fuite; // Utile seulement pour les agents pas complexes
+    public Transform fuite; // Utile seulement pour les agents pas complexes, point vers lequel ils vont fuir
 
-    public Vector3 centreDeGraviteA { get; private set; }
+    public Vector3 centreDeGraviteA { get; private set; } // Centre de gravité de l'équipe A
     public Vector3 centreDeGraviteB { get; private set; }
 
 
 
-    // Use this for initialization
+    // Cette méthode est appelée automatiquement au début du programme car ce script est lié à un objet de la scene
     void Start()
     {
-        // Generation des listes avec des Instantiate et Init().
-
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
         teamA = new List<Agent>();
         teamB = new List<Agent>();
+        /* -----------*/
+        /*   TEAM A   */
+        /* -----------*/
         float longueur=this.agentsA2.transform.position.x-this.agentsA1.transform.position.x;
         float profondeur= this.agentsA2.transform.position.z - this.agentsA1.transform.position.z;
         float dp = profondeur / 3;
         float dl = longueur;
 
-        /* -----------*/
-        /*   TEAM A   */
-        /* -----------*/
         float xA = agentsA1.transform.position.x;
         float zA = agentsA1.transform.position.z;
 
@@ -59,15 +57,15 @@ public class Monde : MonoBehaviour {
                 posi = new Vector3(xA + Random.Range(0, dl), 0.5f, zA + Random.Range(0, dp));
             else
                 posi = new Vector3(xA + i * dl / nbAgentTeamMage, 0.5f, zA);
-            GameObject NAgent = Instantiate(mage, posi, agentsA1.rotation) as GameObject;
-            if (complexIATeamA)
+            GameObject NAgent = Instantiate(mage, posi, agentsA1.rotation) as GameObject;// On instantie un GameObject à l'aide du préfab donné, à la position posi et avec une rotation précise
+            if (complexIATeamA) // En fonction du type d'agent (complex ou normal), on récupére l'objet lié à la bonne classe
                 teamA.Add(NAgent.GetComponent<Agent_mage_complex>());
             else
                 teamA.Add(NAgent.GetComponent<Agent_mage>());
             teamA[i].Init(this, true, i);
-            teamA[i].gameObject.GetComponent<Agent_mage>().enabled=!complexIATeamA;
+            teamA[i].gameObject.GetComponent<Agent_mage>().enabled=!complexIATeamA;// De même que précédemmeent, on active le bon script et désactive le mauvais
             teamA[i].gameObject.GetComponent<Agent_mage_complex>().enabled = complexIATeamA;
-            teamA[i].gameObject.SetActive(false);
+            teamA[i].gameObject.SetActive(false);// On désactive le gameObject afin d'éviter que les premiers agents qui soient crés soient avantagés. On les réactivera à la fin de la création 
         }
         // Vérification qu'on a bien créé le bon nombre de mages
         int decalage = teamA.Count;
@@ -125,6 +123,10 @@ public class Monde : MonoBehaviour {
         /* -----------*/
         /*   TEAM B   */
         /* -----------*/
+        longueur=this.agentsB2.transform.position.x-this.agentsB1.transform.position.x;
+        profondeur= this.agentsB2.transform.position.z - this.agentsB1.transform.position.z;
+        dp = profondeur / 3;
+        dl = longueur;
         float xB = agentsB1.transform.position.x;
         float zB = agentsB1.transform.position.z;
 
@@ -198,7 +200,7 @@ public class Monde : MonoBehaviour {
         if (decalage == nbAgentTeam)
             Debug.Log("Pas de soucis avec les boubou B");
 
-        // Maintenant on active les machins
+        // Maintenant on active les agents
         for (int i=0;i<teamA.Count;i++)
             teamA[i].gameObject.SetActive(true);
         for (int i = 0; i < teamB.Count; i++)
@@ -207,7 +209,7 @@ public class Monde : MonoBehaviour {
 
     }
 
-        // Update is called once per frame
+        // Cette fonction est appélée automatiquement une fois par frame
     void Update ()
     {
         // Update du centre de gravité de la team A
@@ -224,15 +226,18 @@ public class Monde : MonoBehaviour {
         this.centreDeGraviteB = temp / teamB.Count;
     }
 
+	// Cette fonction retourne une copie de la liste des agents de l'équipe A 
     public List<Agent> getTeamA()
     {
         return new List<Agent>(this.teamA);
     }
+	// Cette fonction retourne une copie de la liste des agents de l'équipe B
     public List<Agent> getTeamB()
     {
         return new List<Agent>(this.teamB);
     }
 
+	// Cette fonction retourne le nombre d'agents de l'équipe A si teamVoulueA est vrai ou de l'équipe B sinon qui sont à une portée de "portee" de l'agent "deamndeur"
     public int nbAPortee(bool teamVoulueA, Agent demandeur,double portee)
     {
         int nb = 0;
