@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Cette classe sert à déplacer la caméra
+/// </summary>
+
 public class SmoothFollow : MonoBehaviour
 {
     #region Consts

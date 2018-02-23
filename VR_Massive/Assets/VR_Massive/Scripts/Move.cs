@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/// <summary>
+/// Classe qui sert au déplacement des agents
+/// </summary>
+
 /*[RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]*/
 public class Move : MonoBehaviour
@@ -13,11 +17,10 @@ public class Move : MonoBehaviour
     private Vector2 velocity = Vector2.zero;
     Animator anim;
     Agent agent;
-    // Use this for initialization
-    /*void Start () {
-		
-	}*/
 
+    /// <summary>
+    /// Constructeur
+    /// </summary>
     public Move(NavMeshAgent nav, Animator an, Agent ag)
     {
         nevAgent = nav;
@@ -25,7 +28,9 @@ public class Move : MonoBehaviour
         agent = ag;
     }
 
-    // Fonction qui sert à bouger l'agent avec les aimations ( ou autrement dit: MAGIIIIIIEEEEEEE)
+    /// <summary>
+    /// Fonction qui sert à déplacer l'agent vers la destination contenue dans le NavMeshAgent
+    /// </summary>
     public void LetsMove()
     {
         Vector3 worldDeltaPosition = nevAgent.nextPosition - agent.transform.position;
@@ -47,8 +52,6 @@ public class Move : MonoBehaviour
 
         // Update animation parameters
         agent.anim.SetBool("Moving", shouldMove);
-        //agent.anim.SetFloat("velx", velocity.x);
-        //agent.anim.SetFloat("vely", velocity.y);
     }
 
 }

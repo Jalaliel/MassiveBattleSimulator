@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Cette classe sert à déplacer le joueur avec les touches du clavier
+/// </summary>
+
 public class PlayerControl : MonoBehaviour {
     public Animator animator;
     float rotationSpeed = 30;
@@ -107,12 +111,4 @@ public class PlayerControl : MonoBehaviour {
     {
     }
 
-    //void OnGUI()
-    //{
-    //    if (GUI.Button(new Rect(25, 85, 100, 30), "Attack1"))
-    //    {
-    //        animator.SetTrigger("Attack1Trigger");
-    //        StartCoroutine(COStunPause(.6f));
-    //    }
-    //}
 }

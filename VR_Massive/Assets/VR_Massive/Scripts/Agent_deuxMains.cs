@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class Agent_deuxMains : Agent {
     private bool animDeath;
-    public Transform desti; // A virer dès qu'on pourra dire à nos agent l'endroit où se déplacer, c'est juste pour les test
+    public Transform desti; 
     private int nbAttaques = 2;
     
-    // A mettre obligatoirement au début (appelé lors du Instantiate ou au lancement) du coup obligatoire!!! Sert de constructeur
+    // A mettre obligatoirement au début
     void Start()
     {
         // Le "base" sert a apppeler une méthode/attribut de la classe mère (protected ou public seulement)
-        base.StartA();// Obligatoire aussi (initialisation de la classe mère)
-        portee = 1; // A changer pour mettre votre portée: j'ai aucune idée de l'unite utilisée donc il faudra faire des test mais j'aurais tendance à dire que on peut dire que c'est des mètres
+        base.StartA();// Initialisation de la classe mère
+        portee = 1;
     }
 
-    // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
-    // Update is called once per frame=> du coup obligatoire aussi: c'est là dedans qu'il faut la prise de décision....
+    // Update is called once per frame
     void Update()
     {
-        if (base.etat > 0)
+        if (base.etat > 0) // Si l'agent est encore vivant
         {
-
-            if (!enFuite)
+            if (!this.enFuite) // Si l'agent n'est pas en fuite
             {
                 int nbEquipe = 0;
                 int nbEquipeEn = 0;
+                // Calcul des nombres d'agent de chaque équipe 
                 if (equipeA)
                 {
                     nbEquipe = this.terrain.GetNbTeamA();
@@ -36,12 +35,12 @@ public class Agent_deuxMains : Agent {
                     nbEquipe = this.terrain.GetNbTeamB();
                     nbEquipeEn = this.terrain.GetNbTeamA();
                 }
-                if ((Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe)&&(nbEquipeEn>=2*nbEquipe))
+                if ((Random.Range(1, 10000) < 10 * nbEquipeEn / nbEquipe) && (nbEquipeEn >= 2 * nbEquipe)) //Calcul de la peur et fuite si l'agent a peur
                 {
-                    this.enFuite=true;
+                    this.enFuite = true; ;
                     this.LetsMove(this.terrain.fuite.position);
                 }
-                else
+                else // Sinon, si on au moins un ennemi à portée, on attaque sinon on se déplace
                 {
                     List<Agent> ennemis = GetEnnemisPortee();
                     if (ennemis.Count > 0)
@@ -54,10 +53,8 @@ public class Agent_deuxMains : Agent {
                     }
                 }
             }
-            else
+            else // Dans le cas où l'agent est en fuite, on vérifie si il arrive au bord du terrain et dans ce cas, on le détruit
             {
-                // TODO: implémentation de la fuite à faire (en gros mettre une destination en dehors de la map)
-                
                 if ((this.transform.position.x > 99) || (this.transform.position.x < -99) || (this.transform.position.z > 99) || (this.transform.position.z < -99))
                 {
                     base.terrain.Tuer(this);
@@ -69,7 +66,7 @@ public class Agent_deuxMains : Agent {
         {
             this.moving = false;
             this.anim.SetBool("Moving", false);
-            // TODO: Animation morts
+            //Animation de la mort et destruction de l'agent
             if (!animDeath)
             {
                 this.anim.SetTrigger("dead");
@@ -80,9 +77,12 @@ public class Agent_deuxMains : Agent {
         }
     }
 
+    /// <summary>
+    /// Fonction qui sert normalement à décider quel ennemi, parmi la liste, attaquer
+    /// </summary>
     protected void Attaquer (List<Agent> attaque)
     {
-        // A completer avec le booleen d'animation 
+        // Choix de l'animation de l'attaque à utiliser
         int attaqueNumber = Random.Range(1, nbAttaques);
         string anima = "attack" + attaqueNumber;
         this.anim.SetTrigger(anima);
@@ -99,8 +99,7 @@ public class Agent_deuxMains : Agent {
 
     }
 
-
-
+   
     void FootR()
     {
     }

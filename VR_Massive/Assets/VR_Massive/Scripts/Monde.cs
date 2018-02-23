@@ -31,8 +31,9 @@ public class Monde : MonoBehaviour {
     public Vector3 centreDeGraviteB { get; private set; }
 
 
-
-    // Cette méthode est appelée automatiquement au début du programme car ce script est lié à un objet de la scene
+	/// <Summary>
+    /// Cette méthode est appelée automatiquement au début du programme car ce script est lié à un objet de la scene
+    /// </Summary>
     void Start()
     {
         nbAgentTeam = nbAgentTeamBouclier + nbAgentTeamDeuxMains + nbAgentTeamMage;
@@ -209,7 +210,9 @@ public class Monde : MonoBehaviour {
 
     }
 
-        // Cette fonction est appélée automatiquement une fois par frame
+	/// <Summary>
+    /// Cette fonction est appélée automatiquement une fois par frame
+    /// </Summary>
     void Update ()
     {
         // Update du centre de gravité de la team A
@@ -225,19 +228,25 @@ public class Monde : MonoBehaviour {
             	temp += teamB[i].transform.position;
         this.centreDeGraviteB = temp / teamB.Count;
     }
-
-	// Cette fonction retourne une copie de la liste des agents de l'équipe A 
+	
+	/// <Summary>
+	/// Cette fonction retourne une copie de la liste des agents de l'équipe A 
+    /// </Summary>
     public List<Agent> getTeamA()
     {
         return new List<Agent>(this.teamA);
-    }
-	// Cette fonction retourne une copie de la liste des agents de l'équipe B
+    }	
+    /// <Summary>
+	/// Cette fonction retourne une copie de la liste des agents de l'équipe B
+    /// </Summary>
     public List<Agent> getTeamB()
     {
         return new List<Agent>(this.teamB);
     }
-
-	// Cette fonction retourne le nombre d'agents de l'équipe A si teamVoulueA est vrai ou de l'équipe B sinon qui sont à une portée de "portee" de l'agent "deamndeur"
+	
+	/// <Summary>
+	/// Cette fonction retourne le nombre d'agents de l'équipe A si teamVoulueA est vrai ou de l'équipe B sinon qui sont à une portée de "portee" de l'agent "deamndeur"
+    /// </Summary>
     public int nbAPortee(bool teamVoulueA, Agent demandeur,double portee)
     {
         int nb = 0;
@@ -256,7 +265,11 @@ public class Monde : MonoBehaviour {
         return nb;
     }
 
-
+	/// <Summary>
+    /// Cette fonction est appelée par l'agent attaquant losqu'il souhaite attaquer l'agent attaque. 
+    /// Le mmonde résout l'attaque avec une probabilité de toucher en fonction du type des deux agents
+    /// et change la vie de l'agent attaque, si l'attaque est réussie
+    /// </Summary>
     public void Attaquer(Agent attaquant, Agent attaque)
     {
         int indice=0;
@@ -291,23 +304,27 @@ public class Monde : MonoBehaviour {
         {
             Debug.Log("attaque reussie");
             attaque.SetEtat(attaque.GetEtat() - 1);
-            //if (attaque.GetEtat() <= 0)
-            //{
-            //    this.Tuer(attaque);
-            //}
         }
     }
-
+	
+	/// <Summary>
+    /// Cette fonction retourne le nombre d'agents de l'équipe A
+    /// </Summary>
     public int GetNbTeamA()
     {
         return this.teamA.Count;
     }
-
+	/// <Summary>
+    /// Cette fonction retourne le nombre d'agents de l'équipe B
+    /// </Summary>
     public int GetNbTeamB()
     {
         return this.teamB.Count;
     }
-
+	/// <Summary>
+    /// Cette fonction sert à retirer un agent mort de la liste de son équipe
+    /// Elle est appelée par l'agent concerné
+    /// </Summary>
     public void Tuer(Agent mort)
     {
         if (mort.equipeA)
@@ -322,8 +339,9 @@ public class Monde : MonoBehaviour {
         }
     }
 
-
-    // Ressors la liste des ennemis à portée
+	/// <Summary>
+    /// Ressors la liste des ennemis à portée
+    /// </Summary>
     public List<Agent> EnnemisADisance(Agent attaquant)
     {
         if (attaquant.equipeA)
@@ -331,7 +349,9 @@ public class Monde : MonoBehaviour {
         else
             return EnnemisADistanceA(attaquant);
     }
-    
+ 	/// <Summary>
+    /// Cette fonction ressort la liste des agents de l'équipe A à portée de l'agent "attaquant".
+    /// </Summary>   
     private List<Agent> EnnemisADistanceA(Agent attaquant)
     {
         List<Agent> ennemi = new List<Agent>();
@@ -342,6 +362,9 @@ public class Monde : MonoBehaviour {
         }
         return ennemi;
     }
+    /// <Summary>
+    /// Cette fonction ressort la liste des agents de l'équipe B à portée de l'agent "attaquant".
+    /// </Summary>
     private List<Agent> EnnemisADistanceB(Agent attaquant)
     {
 		List<Agent> ennemi = new List<Agent>();
@@ -352,6 +375,10 @@ public class Monde : MonoBehaviour {
         }
         return ennemi;
     }
+    /// <Summary>
+    /// Cette fonction ressors un agent de l'équipe B à portée
+    /// ou le premier de la liste si il n'y a pas d'agent à portée
+    /// </Summary>
     private Agent EnnemiProcheA(Agent sujet)
     {
         Agent a = teamB[0];
@@ -362,6 +389,9 @@ public class Monde : MonoBehaviour {
         }
         return a;
     }
+    /// <Summary>
+    /// Cette fonction ressors un agent de l'équipe A à portée
+    /// </Summary>
     private Agent EnnemiProcheB(Agent sujet)
     {
         Agent a = teamA[0];
@@ -372,6 +402,10 @@ public class Monde : MonoBehaviour {
         }
         return a;
     }
+    
+    /// <Summary>
+    /// Cette fonction retourne un ennemi à portée de l'agent "sujet"
+    /// </Summary>
     public Agent EnnemisProche(Agent sujet)
     {
         if (sujet.equipeA)
