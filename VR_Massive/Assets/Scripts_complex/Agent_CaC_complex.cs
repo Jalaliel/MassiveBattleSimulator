@@ -18,7 +18,7 @@ public abstract class Agent_CaC_complex : Agent_complex {
 					ennemiATaper = ennemis [i];
 					isAgentFaible = true;
 				}
-			this.anim.SetTrigger ("attack");
+			this.anim.SetTrigger ("Attack");
 			this.transform.LookAt (ennemiATaper.transform);
 			Wait (3.5f);
 			this.terrain.Attaquer (this, ennemiATaper);

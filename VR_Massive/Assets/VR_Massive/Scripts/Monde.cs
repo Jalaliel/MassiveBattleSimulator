@@ -30,6 +30,10 @@ public class Monde : MonoBehaviour {
     public Vector3 centreDeGraviteA { get; private set; } // Centre de gravité de l'équipe A
     public Vector3 centreDeGraviteB { get; private set; }
 
+	public Texture mageA;
+	public Texture knightB;
+	public Texture deuxMainsB;
+
 
 	/// <Summary>
     /// Cette méthode est appelée automatiquement au début du programme car ce script est lié à un objet de la scene
@@ -67,7 +71,11 @@ public class Monde : MonoBehaviour {
             teamA[i].gameObject.GetComponent<Agent_mage>().enabled=!complexIATeamA;// De même que précédemmeent, on active le bon script et désactive le mauvais
             teamA[i].gameObject.GetComponent<Agent_mage_complex>().enabled = complexIATeamA;
             teamA[i].gameObject.SetActive(false);// On désactive le gameObject afin d'éviter que les premiers agents qui soient crés soient avantagés. On les réactivera à la fin de la création 
-        }
+
+			teamA[i].gameObject.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().material.SetTexture("_MainTex", mageA);
+			teamA[i].gameObject.transform.GetChild(1).GetComponent<SkinnedMeshRenderer>().material.SetTexture("_MainTex", mageA);
+
+		}
         // Vérification qu'on a bien créé le bon nombre de mages
         int decalage = teamA.Count;
         if (decalage == nbAgentTeamMage)
@@ -124,6 +132,9 @@ public class Monde : MonoBehaviour {
         /* -----------*/
         /*   TEAM B   */
         /* -----------*/
+
+		deuxMains.gameObject.transform.GetChild(1).GetChild(0).GetChild(2).GetChild(0).GetChild(2).GetChild(0).GetChild(0).GetChild(0).GetChild(5).GetComponent<MeshRenderer>().material.SetTexture("_MainTex", deuxMainsB);
+
         longueur=this.agentsB2.transform.position.x-this.agentsB1.transform.position.x;
         profondeur= this.agentsB2.transform.position.z - this.agentsB1.transform.position.z;
         dp = profondeur / 3;
@@ -171,6 +182,7 @@ public class Monde : MonoBehaviour {
             teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains>().enabled = !complexIATeamB;
             teamB[i + decalage].gameObject.GetComponent<Agent_deuxMains_complex>().enabled = complexIATeamB;
             teamB[i + decalage].gameObject.SetActive(false);
+
         }
         // Verification du bon dérouelement de la création des combattants à deux mains de la team B
         decalage = teamB.Count;
@@ -195,6 +207,10 @@ public class Monde : MonoBehaviour {
             teamB[i + decalage].gameObject.GetComponent<Agent_bouclier>().enabled = !complexIATeamB;
             teamB[i + decalage].gameObject.GetComponent<Agent_bouclier_complex>().enabled = complexIATeamB;
             teamB[i + decalage].gameObject.SetActive(false);
+
+			teamB[i + decalage].gameObject.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().material.SetTexture("_MainTex", knightB);
+			teamB[i + decalage].gameObject.transform.GetChild(1).GetComponent<SkinnedMeshRenderer>().material.SetTexture("_MainTex", knightB);
+			teamB[i + decalage].gameObject.transform.GetChild(2).GetComponent<SkinnedMeshRenderer>().material.SetTexture("_MainTex", knightB);
         }
         // Verification du bon déroulement de la création des combattants avec un bouclier de la team B
         decalage = teamB.Count;
